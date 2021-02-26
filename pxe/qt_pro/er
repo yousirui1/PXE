@@ -1,0 +1,44 @@
+Makefile.Debug:134: warning: overriding recipe for target 'debug/moc_global.cpp'
+Makefile.Debug:127: warning: ignoring old recipe for target 'debug/moc_global.cpp'
+Makefile.Debug:161: warning: overriding recipe for target 'debug/qrc_img.cpp'
+Makefile.Debug:156: warning: ignoring old recipe for target 'debug/qrc_img.cpp'
+In file included from base.h:25:0,
+                 from global.h:10,
+                 from mainwindow.cpp:9:
+C:/Qt/4.8.6/mingw32/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^
+In file included from global.h:11:0,
+                 from mainwindow.cpp:9:
+pipethread.h:6:0: warning: "DATA_SIZE" redefined [enabled by default]
+ #define DATA_SIZE 1452
+ ^
+In file included from global.h:10:0,
+                 from mainwindow.cpp:9:
+base.h:90:0: note: this is the location of the previous definition
+ #define DATA_SIZE 1472
+ ^
+In file included from global.h:12:0,
+                 from mainwindow.cpp:9:
+client.h:7:0: warning: "DATA_SIZE" redefined [enabled by default]
+ #define DATA_SIZE 1472
+ ^
+In file included from global.h:11:0,
+                 from mainwindow.cpp:9:
+pipethread.h:6:0: note: this is the location of the previous definition
+ #define DATA_SIZE 1452
+ ^
+In file included from mainwindow.cpp:11:0:
+socket.h:8:0: warning: "INVALID_SOCKET" redefined [enabled by default]
+ #define INVALID_SOCKET -1
+ ^
+In file included from C:/Qt/4.8.6/mingw32/i686-w64-mingw32/include/winsock.h:35:0,
+                 from C:/Qt/4.8.6/mingw32/i686-w64-mingw32/include/windows.h:92,
+                 from base.h:24,
+                 from global.h:10,
+                 from mainwindow.cpp:9:
+C:/Qt/4.8.6/mingw32/i686-w64-mingw32/include/psdk_inc/_socket_types.h:16:0: note: this is the location of the previous definition
+ #define INVALID_SOCKET (SOCKET)(~0)
+ ^
+make[1]: *** [debug/mainwindow.o] Error 1
+make: *** [debug] Error 2

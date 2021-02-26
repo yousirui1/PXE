@@ -1,0 +1,14 @@
+INPUT(
+./release/global.o
+./release/item.o
+./release/main.o
+./release/mainwindow.o
+./release/socket.o
+./release/external.o
+./release/pipethread.o
+./release/moc_global.o
+./release/moc_item.o
+./release/moc_mainwindow.o
+./release/moc_pipethread.o
+./release/qrc_img.o
+);

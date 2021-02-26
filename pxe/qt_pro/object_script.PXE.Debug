@@ -1,0 +1,14 @@
+INPUT(
+./debug/global.o
+./debug/item.o
+./debug/main.o
+./debug/mainwindow.o
+./debug/socket.o
+./debug/external.o
+./debug/pipethread.o
+./debug/moc_global.o
+./debug/moc_item.o
+./debug/moc_mainwindow.o
+./debug/moc_pipethread.o
+./debug/qrc_img.o
+);

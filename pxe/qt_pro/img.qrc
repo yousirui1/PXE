@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/offline-point.png</file>
+        <file>images/onlie-point.png</file>
+    </qresource>
+</RCC>
