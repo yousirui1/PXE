@@ -1,7 +1,7 @@
 #ifndef __CLIENT_H__
 #define __CLIENT_H__
 
-#include "base.h"
+
 
 #define IPADDR_LEN 32
 #define DATA_SIZE 1472

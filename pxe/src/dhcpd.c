@@ -2,13 +2,15 @@
 #include "dhcpd.h"
 #include "client.h"
 #include "socket.h"
+#include "tftpd.h"
+#include "configs.h"
+
 
 static int scan_for_leases = 1;
 static int dhcp_index = 0;
 
+extern struct configs conf;
 void close_fd(int fd);
-
-struct dhcp_param dhcp_config;
 
 static unsigned char dhcp_agent_opt[1024];
 static int dhcp_agent_len = 0;
@@ -184,9 +186,9 @@ int dhcp_option_reply(struct dhcp_packet *pkt, int type, struct client *cli, cha
 
 	/* If we are the bootp server, we are also the tftpserver */
 	if(TFTPD32_TFTP_SERVER)
-		pkt->siaddr.s_addr = inet_addr(dhcp_config.tftp_ip);
+		pkt->siaddr.s_addr = inet_addr(conf.dhcp.tftp_ip);
 
-	pkt->yiaddr.s_addr = inet_addr(dhcp_config.pool_ip);
+	pkt->yiaddr.s_addr = inet_addr(conf.dhcp.pool_ip);
 
 	struct m_addr *addr = (struct m_addr *)&pkt->yiaddr.s_addr;
 	addr->b4 += cli->index;
@@ -209,33 +211,33 @@ int dhcp_option_reply(struct dhcp_packet *pkt, int type, struct client *cli, cha
 			case DHO_LOG_SERVERS:
 				break;
 			case DHO_DHCP_SERVER_IDENTIFIER:
-				*(uint32_t *)opt = inet_addr(dhcp_config.tftp_ip);
+				*(uint32_t *)opt = inet_addr(conf.dhcp.tftp_ip);
 				break;
 			case DHO_TFTP_SERVER:
 				*opt++ = DHO_TFTP_SERVER;
-				*opt = strlen(dhcp_config.tftp_ip);
-				memcpy(opt + 1, dhcp_config.tftp_ip, *opt);
+				*opt = strlen(conf.dhcp.tftp_ip);
+				memcpy(opt + 1, conf.dhcp.tftp_ip, *opt);
 				opt += 1 + *opt;
 				break;
 				
 			case DHO_SUBNET_MASK:
-				*(uint32_t *)opt = inet_addr(dhcp_config.mask);
+				*(uint32_t *)opt = inet_addr(conf.dhcp.mask);
 				break;
 			case DHO_ROUTERS:
-				if((strlen(dhcp_config.gateway) == 0 || inet_addr(dhcp_config.gateway) == 0x0))
+				if((strlen(conf.dhcp.gateway) == 0 || inet_addr(conf.dhcp.gateway) == 0x0))
 					*(uint32_t *)opt = pkt->yiaddr.s_addr;
 				else
-					*(uint32_t *)opt = inet_addr(dhcp_config.gateway);
+					*(uint32_t *)opt = inet_addr(conf.dhcp.gateway);
 				break;	
 			case DHO_DOMAIN_NAME_SERVERS:
-				if(strlen(dhcp_config.dns1) != 0 && inet_addr(dhcp_config.dns1) != 0x0)
+				if(strlen(conf.dhcp.dns1) != 0 && inet_addr(conf.dhcp.dns1) != 0x0)
 				{
 					int bkp_dns = 0;
 					*opt ++ = DHO_DOMAIN_NAME_SERVERS;
 					*opt ++ = bkp_dns ? 8: 4;
-                    *(uint32_t *)opt = inet_addr(dhcp_config.dns1);
+                    *(uint32_t *)opt = inet_addr(conf.dhcp.dns1);
 					if(bkp_dns)
-						*(uint32_t *)(opt + 4) = inet_addr(dhcp_config.dns2);
+						*(uint32_t *)(opt + 4) = inet_addr(conf.dhcp.dns2);
 					opt += bkp_dns ? 8: 4;	
 				}
 				break;
@@ -243,25 +245,25 @@ int dhcp_option_reply(struct dhcp_packet *pkt, int type, struct client *cli, cha
 
 				*opt ++= DHO_NETBIOS_NAME_SERVERS;
 				*opt ++= 4;
-				if(!(strlen(dhcp_config.wins) == 0 || inet_addr(dhcp_config.wins) == 0x0))
+				if(!(strlen(conf.dhcp.wins) == 0 || inet_addr(conf.dhcp.wins) == 0x0))
 				{
-					*(uint32_t *)opt = inet_addr(dhcp_config.wins);
+					*(uint32_t *)opt = inet_addr(conf.dhcp.wins);
 				}
 				else
 				{
-                    *(uint32_t *)opt = inet_addr(dhcp_config.dns1);
+                    *(uint32_t *)opt = inet_addr(conf.dhcp.dns1);
 				}
 				opt += 4;
 				break;
 			case DHO_DHCP_LEASE_TIME:
-				*(uint32_t *)opt = htonl(dhcp_config.lease * 60);
+				*(uint32_t *)opt = htonl(conf.dhcp.lease * 60);
 				break;
 
 			case DHO_DHCP_RENEWAL_TIME:
-				*(uint32_t *)opt = htonl(dhcp_config.lease / 2 * 60);
+				*(uint32_t *)opt = htonl(conf.dhcp.lease / 2 * 60);
 				break;
 			case DHO_DHCP_REBINDING_TIME:
-				*(uint32_t *)opt = htonl((dhcp_config.lease * 80) / 100 * 60);
+				*(uint32_t *)opt = htonl((conf.dhcp.lease * 80) / 100 * 60);
 				break;
 			case DHO_BOOT_SIZE:
 				if(0)
@@ -279,30 +281,30 @@ int dhcp_option_reply(struct dhcp_packet *pkt, int type, struct client *cli, cha
 				opt += 1 + *opt;
 				break;	
 			case DHO_NTP_SERVERS:
-				if(!strlen(dhcp_config.opt42) == 0 || inet_addr(dhcp_config.opt42) == 0x0)
+				if(!strlen(conf.dhcp.opt42) == 0 || inet_addr(conf.dhcp.opt42) == 0x0)
 				{
 					*opt ++ = DHO_NTP_SERVERS;
 					*opt ++ = 4;
-					*(uint32_t *)opt = inet_addr(dhcp_config.opt42);
+					*(uint32_t *)opt = inet_addr(conf.dhcp.opt42);
 					opt += 4;
 				}
 				break;
 			case DHO_SIP_SERVERS:
-				if(!strlen(dhcp_config.opt120) == 0 || inet_addr(dhcp_config.opt120) == 0x0)
+				if(!strlen(conf.dhcp.opt120) == 0 || inet_addr(conf.dhcp.opt120) == 0x0)
 				{
 					*opt ++ = DHO_SIP_SERVERS;
 					*opt ++ = 5;
 					*opt ++ = 1;
-					*(uint32_t *)opt = inet_addr(dhcp_config.opt120);
+					*(uint32_t *)opt = inet_addr(conf.dhcp.opt120);
 					opt += 4;
 				}
 				break;
 			case DHO_DOMAIN_NAME:
-				if(dhcp_config.domain_name[0] != 0)
+				if(conf.dhcp.domain_name[0] != 0)
 				{
 					*opt ++ = DHO_DOMAIN_NAME;
-					*opt = strlen(dhcp_config.domain_name);
-					memcpy(opt + 1, dhcp_config.domain_name, *opt);
+					*opt = strlen(conf.dhcp.domain_name);
+					memcpy(opt + 1, conf.dhcp.domain_name, *opt);
 					opt += 1 + *opt;
 				}
 				break;
@@ -336,11 +338,11 @@ int dhcp_option_reply(struct dhcp_packet *pkt, int type, struct client *cli, cha
 				break;
 			case DHO_CUSTOM:
 				break;
-				for(j = 0; j < sizeof_tab(dhcp_config.t); j++)
+				for(j = 0; j < sizeof_tab(conf.dhcp.t); j++)
 				{
-					if(dhcp_config.t[j].add_option)
+					if(conf.dhcp.t[j].add_option)
 					{
-						*opt++ = (unsigned char)dhcp_config.t[j].add_option;
+						*opt++ = (unsigned char)conf.dhcp.t[j].add_option;
 						//*opt = translate_value();
 						opt += 1 + *opt;
 					}
@@ -364,7 +366,9 @@ int process_dhcp_message(struct dhcp_packet *pkt, int *p_size)
 	struct in_addr send_addr;
 	uint8_t major, minor;
 	struct client *cli = NULL;
-	char boot_file[128] = "pxelinux.0";
+	char boot_file[128];
+	strcpy(boot_file, conf.dhcp.pxe_boot);
+
 	if(is_dhcp(*pkt))
 	{
 		/* search dhcp message type */
@@ -387,7 +391,7 @@ int process_dhcp_message(struct dhcp_packet *pkt, int *p_size)
 	switch(type)
 	{
 		case 0:
-			if(dhcp_config.ignore_bootp)
+			if(conf.dhcp.ignore_bootp)
 			{
 				DEBUG("ignoring bootp request");
 				break;
@@ -417,7 +421,8 @@ int process_dhcp_message(struct dhcp_packet *pkt, int *p_size)
 				DEBUG("major: %d minor: %d", major, minor);
 				if(major == 3)							//IPXE major 3
 				{
-					strcpy(boot_file, "boot.ipxe");
+					strcpy(boot_file, conf.dhcp.ipxe_boot);
+					//strcpy(boot_file, "BOOTX64.EFI");
 				}
 			}
 			memcpy(pkt->file, boot_file, strlen(boot_file));
@@ -436,7 +441,8 @@ int process_dhcp_message(struct dhcp_packet *pkt, int *p_size)
 				return ERROR;
 			}
 			pkt->op = BOOTREPLY;
-			pkt->yiaddr.s_addr = inet_addr(dhcp_config.mask);
+
+			pkt->yiaddr.s_addr = inet_addr(conf.dhcp.mask);
 			
 			p = dhcp_search_options(pkt->options, DHO_PXE_CLIENT_NETIF_ID, NULL);
 
@@ -447,7 +453,8 @@ int process_dhcp_message(struct dhcp_packet *pkt, int *p_size)
 				DEBUG("major: %d minor: %d", major, minor);
 				if(major == 3)							//IPXE major 3
 				{
-					strcpy(boot_file, "boot.ipxe");
+					strcpy(boot_file, conf.dhcp.ipxe_boot);
+					//strcpy(boot_file, "BOOTX64.EFI");
 				}
 			}
 			memcpy(pkt->file, boot_file, strlen(boot_file));
@@ -498,7 +505,7 @@ int process_dhcp_message(struct dhcp_packet *pkt, int *p_size)
 		default:
 			break;
 	}
-	return type == 0 || type == DHCPDISCOVER || type == DHCPREQUEST;
+	return type;
 }
 
 int dhcpd_loop()
@@ -517,7 +524,8 @@ int dhcpd_loop()
 
     int socklen =  sizeof (struct sockaddr_in);
 
-	local_addr.s_addr=inet_addr(dhcp_config.local_ip);
+	DEBUG("conf.netcard.ip %s", conf.netcard.ip);
+	local_addr.s_addr=inet_addr(conf.dhcp.local_ip);
 
 	sockfd = socket(AF_INET, SOCK_DGRAM, 0);
     if(sockfd == INVALID_SOCKET)
@@ -528,7 +536,7 @@ int dhcpd_loop()
 
 	if(scan_for_leases)			//续租扫描 初始化扫描ip段
 	{
-		ping_range(dhcp_config.pool_ip, dhcp_config.pool_size);
+		ping_range(conf.dhcp.pool_ip, conf.dhcp.pool_size);
 	}
 
 	/* add send broadcast capacity to DHCP listening socket */
@@ -573,7 +581,7 @@ int dhcpd_loop()
     FD_SET(sockfd, &allset);
 
     maxfd = maxfd > sockfd ? maxfd : sockfd;
-	dhcp_config.fd = sockfd;
+	conf.dhcp.fd = sockfd;
 
 	for(;;)
 	{
@@ -593,8 +601,7 @@ int dhcpd_loop()
 		}
 		nready = ret;
 
-		DEBUG("dhcp select");
-		dhcp_send_lease(dhcp_config.lease);
+		dhcp_send_lease(conf.dhcp.lease);
 
 		if(FD_ISSET(sockfd, &reset))
 		{
@@ -618,8 +625,12 @@ int dhcpd_loop()
 
 			ret = (recv_addr.sin_addr.s_addr != htonl(INADDR_NONE) && recv_addr.sin_addr.s_addr != 
 				htonl(INADDR_ANY) && recv_addr.sin_addr.s_addr != CLASS_A_LOOPBACK);	//class A 127
-			if(process_dhcp_message(&pkt, &size))
+
+			ret = process_dhcp_message(&pkt, &size);
+
+			//if(process_dhcp_message(&pkt, &size))
 			{
+#if 0
 				if(ret)
 					dhcp_send(sockfd, &send_addr, &recv_addr, &pkt, size, ret);
 				else
@@ -634,6 +645,18 @@ int dhcpd_loop()
 					}
 					//dhcp_recv(sockfd ,&send_addr, &recv_addr, &pkt, size);
 				}
+#endif
+				 if(ret == DHCPDISCOVER)
+                {
+                    for(i = 0; i < conf.dhcp.again; i++)
+                        ret = sendto(sockfd, (char *)&pkt, size, 0, (struct sockaddr *)&send_addr,
+                                            sizeof(send_addr));
+                }
+                else if(ret == DHCPREQUEST)
+                {
+                    ret = sendto(sockfd, (char *)&pkt, size, 0, (struct sockaddr *)&send_addr,
+                                            sizeof(send_addr));
+                }
 			}
 		}
 	}

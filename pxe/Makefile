@@ -35,7 +35,7 @@ libobj = libPXE.dll.a
 qtobj = 
 
 mainobj = main.o tftpd.o log.o socket.o dhcpd.o ping.o client.o list.o dict.o queue.o rbtree.o alarm.o event.o \
-		httpd.o signals.o version.o inirw.o ui.o configs.o  tools.o logger.o network.o utils.o pipe.o external.o \
+		httpd.o signals.o version.o inirw.o ui.o configs.o  tools.o logger.o network.o utils.o pipe.o dll.o \
 		#mmap_cache.o
 
 cppobj = 

@@ -32,27 +32,17 @@ LIBS +=  -lws2_32 $$PWD/libPXE.dll.a
 
 SOURCES += \
     global.cpp \
-    item.cpp \
     main.cpp \
-    mainwindow.cpp \
-    external.cpp \
-    pipethread.cpp
+    mainwindow.cpp
 
 HEADERS += \
-    client.h \
     global.h \
-    base.h \
-    client.h \
     global.h \
-    item.h \
     mainwindow.h \
-    external.h \
-    pipethread.h \
-    external.h
+    dll.h
 
 FORMS += \
     mainwindow.ui \
-    item.ui \
 
 
 # Default rules for deployment.
@@ -64,10 +54,7 @@ SUBDIRS += \
     PXE.pro \
     PXE.pro
 
-DISTFILES += \
-    PXE.pro.user \
-    PXE.pro.user.a02470e \
-    test.txt
+DISTFILES +=
 
 RESOURCES += \
     img.qrc \

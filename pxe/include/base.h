@@ -63,7 +63,6 @@
     #include <limits.h>
 #endif
 
-#include "configs.h"
 #include "pipe.h"
 #include "socket.h"
 #include "global.h"

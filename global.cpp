@@ -29,15 +29,4 @@ Global *Global::getGlobal()
 }
 
 
-void Global::setPipe(int fd[2])
-{
-    pipe = new PipeThread(fd);
-    pipe->start();
-}
-
-void Global::setClients(struct client **clients)
-{
-    this->clients = clients;
-}
-
 

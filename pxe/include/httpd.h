@@ -30,4 +30,12 @@
 #include "event.h"
 #include "http.h"
 
+struct http_conf
+{
+	int port;
+	char dir[128];	
+};
+
+
+
 #endif

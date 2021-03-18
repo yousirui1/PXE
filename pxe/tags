@@ -1,0 +1,1347 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASSERT	.\include\httpd.h	16;"	d
+ASSERT	.\include\httpd.h	18;"	d
+BASE_SECTION	.\include\configs.h	6;"	d
+BASE_TYPE_KEY	.\include\configs.h	7;"	d
+BOOTPC_PORT	.\include\dhcpd.h	131;"	d
+BOOTPS_PORT	.\include\dhcpd.h	132;"	d
+BOOTP_BROADCAST	.\include\dhcpd.h	129;"	d
+BOOTP_MIN_LEN	.\include\dhcpd.h	27;"	d
+BOOTREPLY	.\include\dhcpd.h	126;"	d
+BOOTREQUEST	.\include\dhcpd.h	125;"	d
+BOUNDARY_MAX_LEN	.\include\event.h	4;"	d
+BUFFER_UNIT	.\include\httpd.h	13;"	d
+CAPTUREANDCAST_API	.\include\external.h	11;"	d
+CAPTUREANDCAST_API	.\include\external.h	9;"	d
+CAPTUREANDCAST_EXPORTS	.\include\external.h	6;"	d
+CGI_ARGC_MAX	.\include\cgi.h	7;"	d
+CGI_ENV_MAX	.\include\cgi.h	6;"	d
+CGI_VERSION	.\include\cgi.h	4;"	d
+CLASS_A_LOOPBACK	.\include\dhcpd.h	277;"	d
+CLIENITEM_H	.\qt_pro\item.h	2;"	d
+COMMON_CGI_COUNT	.\include\cgi.h	5;"	d
+CONFIG_DEFAULT_NULL	.\include\configs.h	49;"	d
+CONFIG_FILE	.\include\configs.h	4;"	d
+CR	.\src\httpd.c	6;"	d	file:
+CRLF	.\src\httpd.c	7;"	d	file:
+DATA_ENCRYPT	.\qt_pro\pipethread.h	12;"	d
+DATA_ENCRYPT_OFFSET	.\qt_pro\pipethread.h	13;"	d
+DATA_LEN_OFFSET	.\qt_pro\pipethread.h	15;"	d
+DATA_ORDER_OFFSET	.\qt_pro\pipethread.h	14;"	d
+DATA_SIZE	.\include\base.h	98;"	d
+DATA_SIZE	.\include\client.h	5;"	d
+DATA_SIZE	.\qt_pro\base.h	90;"	d
+DATA_SIZE	.\qt_pro\client.h	7;"	d
+DATA_SIZE	.\qt_pro\pipethread.h	6;"	d
+DATA_SYN	.\qt_pro\pipethread.h	10;"	d
+DATA_SYN_OFFSET	.\qt_pro\pipethread.h	11;"	d
+DEBUG	.\include\base.h	72;"	d
+DEBUG	.\include\base.h	88;"	d
+DEBUG	.\qt_pro\base.h	56;"	d
+DEBUG	.\qt_pro\base.h	71;"	d
+DEFAULT_IP_VALUE	.\include\configs.h	46;"	d
+DEFAULT_PORT_VALUE	.\include\configs.h	47;"	d
+DHCPACK	.\include\dhcpd.h	11;"	d
+DHCPDECLINE	.\include\dhcpd.h	10;"	d
+DHCPDISCOVER	.\include\dhcpd.h	7;"	d
+DHCPD_AGAIN_KEY	.\include\configs.h	28;"	d
+DHCPD_IPXE_BOOT_KEY	.\include\configs.h	30;"	d
+DHCPD_IP_POOL_KEY	.\include\configs.h	25;"	d
+DHCPD_LEASE_KEY	.\include\configs.h	26;"	d
+DHCPD_POOL_SIZE_KEY	.\include\configs.h	27;"	d
+DHCPD_PXE_BOOT_KEY	.\include\configs.h	29;"	d
+DHCPD_SECTION	.\include\configs.h	24;"	d
+DHCPINFORM	.\include\dhcpd.h	14;"	d
+DHCPNAK	.\include\dhcpd.h	12;"	d
+DHCPOFFER	.\include\dhcpd.h	8;"	d
+DHCPRELEASE	.\include\dhcpd.h	13;"	d
+DHCPREQUEST	.\include\dhcpd.h	9;"	d
+DHCP_FILE_LEN	.\include\dhcpd.h	20;"	d
+DHCP_FIXED_LEN	.\include\dhcpd.h	22;"	d
+DHCP_FIXED_NON_UDP	.\include\dhcpd.h	21;"	d
+DHCP_MIN_LEN	.\include\dhcpd.h	28;"	d
+DHCP_MTU_MAX	.\include\dhcpd.h	24;"	d
+DHCP_OPTIONS_COOKIE	.\include\dhcpd.h	32;"	d
+DHCP_OPTION_LEN	.\include\dhcpd.h	25;"	d
+DHCP_PINGTIMEOUT	.\include\dhcpd.h	133;"	d
+DHCP_SNAME_LEN	.\include\dhcpd.h	19;"	d
+DHCP_UDP_OVERHEAD	.\include\dhcpd.h	16;"	d
+DHO_ALL_SUBNETS_LOCAL	.\include\dhcpd.h	63;"	d
+DHO_ARP_CACHE_TIMEOUT	.\include\dhcpd.h	71;"	d
+DHO_AUTHENTICATE	.\include\dhcpd.h	120;"	d
+DHO_BOOT_FILE	.\include\dhcpd.h	101;"	d
+DHO_BOOT_SIZE	.\include\dhcpd.h	49;"	d
+DHO_BROADCAST_ADDRESS	.\include\dhcpd.h	64;"	d
+DHO_COOKIE_SERVERS	.\include\dhcpd.h	44;"	d
+DHO_CUSTOM	.\include\dhcpd.h	121;"	d
+DHO_DEFAULT_IP_TTL	.\include\dhcpd.h	59;"	d
+DHO_DEFAULT_TCP_TTL	.\include\dhcpd.h	73;"	d
+DHO_DHCP_AGENT_OPTIONS	.\include\dhcpd.h	104;"	d
+DHO_DHCP_CLIENT_IDENTIFIER	.\include\dhcpd.h	97;"	d
+DHO_DHCP_LEASE_TIME	.\include\dhcpd.h	87;"	d
+DHO_DHCP_MAX_MESSAGE_SIZE	.\include\dhcpd.h	93;"	d
+DHO_DHCP_MESSAGE	.\include\dhcpd.h	92;"	d
+DHO_DHCP_MESSAGE_TYPE	.\include\dhcpd.h	89;"	d
+DHO_DHCP_OPTION_OVERLOAD	.\include\dhcpd.h	88;"	d
+DHO_DHCP_PARAMETER_REQUEST_LIST	.\include\dhcpd.h	91;"	d
+DHO_DHCP_REBINDING_TIME	.\include\dhcpd.h	95;"	d
+DHO_DHCP_RENEWAL_TIME	.\include\dhcpd.h	94;"	d
+DHO_DHCP_REQUESTED_ADDRESS	.\include\dhcpd.h	86;"	d
+DHO_DHCP_SERVER_IDENTIFIER	.\include\dhcpd.h	90;"	d
+DHO_DOMAIN_NAME	.\include\dhcpd.h	51;"	d
+DHO_DOMAIN_NAME_SERVERS	.\include\dhcpd.h	42;"	d
+DHO_END	.\include\dhcpd.h	122;"	d
+DHO_EXTENSIONS_PATH	.\include\dhcpd.h	54;"	d
+DHO_FONT_SERVERS	.\include\dhcpd.h	84;"	d
+DHO_FQDN	.\include\dhcpd.h	103;"	d
+DHO_HOST_NAME	.\include\dhcpd.h	48;"	d
+DHO_IEEE802_3_ENCAPSULATION	.\include\dhcpd.h	72;"	d
+DHO_IMPRESS_SERVERS	.\include\dhcpd.h	46;"	d
+DHO_INTERFACE_MTU	.\include\dhcpd.h	62;"	d
+DHO_IP_FORWARDING	.\include\dhcpd.h	55;"	d
+DHO_LOG_SERVERS	.\include\dhcpd.h	43;"	d
+DHO_LPR_SERVERS	.\include\dhcpd.h	45;"	d
+DHO_MASK_SUPPLIER	.\include\dhcpd.h	66;"	d
+DHO_MAX_DGRAM_REASSEMBLY	.\include\dhcpd.h	58;"	d
+DHO_MERIT_DUMP	.\include\dhcpd.h	50;"	d
+DHO_NAME_SERVERS	.\include\dhcpd.h	41;"	d
+DHO_NETBIOS_DD_SERVER	.\include\dhcpd.h	81;"	d
+DHO_NETBIOS_NAME_SERVERS	.\include\dhcpd.h	80;"	d
+DHO_NETBIOS_NODE_TYPE	.\include\dhcpd.h	82;"	d
+DHO_NETBIOS_SCOPE	.\include\dhcpd.h	83;"	d
+DHO_NIS_DOMAIN	.\include\dhcpd.h	76;"	d
+DHO_NIS_SERVERS	.\include\dhcpd.h	77;"	d
+DHO_NON_LOCAL_SOURCE_ROUTING	.\include\dhcpd.h	56;"	d
+DHO_NTP_SERVERS	.\include\dhcpd.h	78;"	d
+DHO_NWIP_DOMAIN_NAME	.\include\dhcpd.h	98;"	d
+DHO_NWIP_SUBOPTIONS	.\include\dhcpd.h	99;"	d
+DHO_PAD	.\include\dhcpd.h	36;"	d
+DHO_PATH_MTU_AGING_TIMEOUT	.\include\dhcpd.h	60;"	d
+DHO_PATH_MTU_PLATEAU_TABLE	.\include\dhcpd.h	61;"	d
+DHO_PERFORM_MASK_DISCOVERY	.\include\dhcpd.h	65;"	d
+DHO_POLICY_FILTER	.\include\dhcpd.h	57;"	d
+DHO_PXE_CLIENT_ARCH_ID	.\include\dhcpd.h	109;"	d
+DHO_PXE_CLIENT_NETIF_ID	.\include\dhcpd.h	110;"	d
+DHO_PXE_UUID	.\include\dhcpd.h	111;"	d
+DHO_RESOURCE_LOCATION_SERVERS	.\include\dhcpd.h	47;"	d
+DHO_ROOT_PATH	.\include\dhcpd.h	53;"	d
+DHO_ROUTERS	.\include\dhcpd.h	39;"	d
+DHO_ROUTER_DISCOVERY	.\include\dhcpd.h	67;"	d
+DHO_ROUTER_SOLICITATION_ADDRESS	.\include\dhcpd.h	68;"	d
+DHO_SIP_SERVERS	.\include\dhcpd.h	114;"	d
+DHO_STATIC_ROUTES	.\include\dhcpd.h	69;"	d
+DHO_SUBNET_MASK	.\include\dhcpd.h	37;"	d
+DHO_SUBNET_SELECTION	.\include\dhcpd.h	113;"	d
+DHO_SWAP_SERVER	.\include\dhcpd.h	52;"	d
+DHO_TCP_KEEPALIVE_GARBAGE	.\include\dhcpd.h	75;"	d
+DHO_TCP_KEEPALIVE_INTERVAL	.\include\dhcpd.h	74;"	d
+DHO_TFTP_SERVER	.\include\dhcpd.h	100;"	d
+DHO_TIME_OFFSET	.\include\dhcpd.h	38;"	d
+DHO_TIME_SERVERS	.\include\dhcpd.h	40;"	d
+DHO_TRAILER_ENCAPSULATION	.\include\dhcpd.h	70;"	d
+DHO_USER_CLASS	.\include\dhcpd.h	102;"	d
+DHO_VENDOR_CLASS_IDENTIFIER	.\include\dhcpd.h	96;"	d
+DHO_VENDOR_ENCAPSULATED_OPTIONS	.\include\dhcpd.h	79;"	d
+DHO_X_DISPLAY_MANAGER	.\include\dhcpd.h	85;"	d
+DIE	.\include\base.h	82;"	d
+DIE	.\include\base.h	90;"	d
+DIE	.\qt_pro\base.h	65;"	d
+DIE	.\qt_pro\base.h	73;"	d
+DISC	.\include\types.h	/^    DISC$/;"	e	enum:__anon12
+EACCESS	.\include\tftpd.h	62;"	d
+EBADID	.\include\tftpd.h	65;"	d
+EBADOP	.\include\tftpd.h	64;"	d
+EBADOPTION	.\include\tftpd.h	68;"	d
+ECANCELLED	.\include\tftpd.h	69;"	d
+EEXISTS	.\include\tftpd.h	66;"	d
+ENABLE_TFTPD	.\include\tftp.h	7;"	d
+ENOSPACE	.\include\tftpd.h	63;"	d
+ENOTFOUND	.\include\tftpd.h	61;"	d
+ENOUSER	.\include\tftpd.h	67;"	d
+ERROR	.\include\base.h	96;"	d
+ERROR_1	.\qt_pro\base.h	88;"	d
+ERR_ACCESS	.\include\tftp.h	27;"	d
+ERR_BAD_ID	.\include\tftp.h	31;"	d
+ERR_BAD_OPT	.\include\tftp.h	34;"	d
+ERR_BAD_USER	.\include\tftp.h	33;"	d
+ERR_EXIST	.\include\tftp.h	32;"	d
+ERR_NOFILE	.\include\tftp.h	26;"	d
+ERR_OP	.\include\tftp.h	30;"	d
+ERR_UNSPEC	.\include\tftp.h	25;"	d
+ERR_WRITE	.\include\tftp.h	29;"	d
+EUNDEF	.\include\tftpd.h	60;"	d
+EV_BUSY	.\include\event.h	/^    EV_BUSY,$/;"	e	enum:__anon4
+EV_EXCEPT	.\include\event.h	/^    EV_EXCEPT               = 0x04,$/;"	e	enum:__anon3
+EV_FINISH	.\include\event.h	/^    EV_FINISH$/;"	e	enum:__anon4
+EV_IDLE	.\include\event.h	/^    EV_IDLE                  = 0,$/;"	e	enum:__anon4
+EV_PERSIST	.\include\event.h	/^    EV_PERSIST              = 0x08$/;"	e	enum:__anon3
+EV_READ	.\include\event.h	/^    EV_READ                 = 0x01,$/;"	e	enum:__anon3
+EV_UNKNOWN	.\include\event.h	/^    EV_UNKNOWN              = 0x00,$/;"	e	enum:__anon3
+EV_WRITE	.\include\event.h	/^    EV_WRITE                = 0x02,$/;"	e	enum:__anon3
+EXIS	.\include\types.h	/^    EXIS,$/;"	e	enum:__anon12
+E_WOULD_BLOCK	.\include\tftpd.h	88;"	d
+FAIL	.\include\base.h	77;"	d
+FAIL	.\include\base.h	89;"	d
+FAIL	.\include\types.h	/^    FAIL,$/;"	e	enum:__anon12
+FAIL	.\qt_pro\base.h	60;"	d
+FAIL	.\qt_pro\base.h	72;"	d
+FD_SETSIZE	.\include\httpd.h	10;"	d
+FD_SETSIZE	.\include\httpd.h	7;"	d
+FD_SETSIZE	.\include\httpd.h	8;"	d
+FULL	.\include\types.h	/^    FULL,$/;"	e	enum:__anon12
+GET_FILENAME	.\src\httpd.c	351;"	d	file:
+GLOBAL_H	.\qt_pro\global.h	2;"	d
+Global	.\qt_pro\global.cpp	/^Global::Global()$/;"	f	class:Global
+Global	.\qt_pro\global.h	/^class Global : public QObject$/;"	c
+HADDRCMP	.\include\socket.h	10;"	d
+HADDRCMP	.\qt_pro\socket.h	10;"	d
+HADDRCMP	.\src\client.c	9;"	d	file:
+HADDRCPY	.\include\socket.h	11;"	d
+HADDRCPY	.\qt_pro\socket.h	11;"	d
+HADDRCPY	.\src\client.c	10;"	d	file:
+HEAD_LEN	.\qt_pro\pipethread.h	7;"	d
+HEX_TO_DECIMAL	.\src\uri.c	4;"	d	file:
+HTTPD_DIR_KEY	.\include\configs.h	38;"	d
+HTTPD_HFS_KEY	.\include\configs.h	39;"	d
+HTTPD_PORT_KEY	.\include\configs.h	37;"	d
+HTTPD_SECTION	.\include\configs.h	36;"	d
+HTTP_BUFLEN	.\include\http.h	6;"	d
+HTTP_GET	.\include\http.h	21;"	d
+HTTP_GET_RANGE	.\include\http.h	12;"	d
+HTTP_PORT	.\include\http.h	5;"	d
+HTTP_POST	.\include\http.h	9;"	d
+ICMPHDR	.\include\ping.h	/^}ICMPHDR, *PICMPHDR;$/;"	t	typeref:struct:tagICMPHDR
+ICMP_DEST_UNREACH	.\include\ping.h	19;"	d
+ICMP_ECHO_REPLY	.\include\ping.h	18;"	d
+ICMP_ECHO_REQUEST	.\include\ping.h	20;"	d
+ICMP_MIN	.\include\ping.h	25;"	d
+ICMP_TTL_EXPIRE	.\include\ping.h	21;"	d
+INVALID_PORT	.\src\network.c	4;"	d	file:
+INVALID_SOCKET	.\include\socket.h	8;"	d
+INVALID_SOCKET	.\qt_pro\socket.h	8;"	d
+IPADDR_LEN	.\include\client.h	4;"	d
+IPADDR_LEN	.\qt_pro\client.h	6;"	d
+IPHDR	.\include\ping.h	/^}IPHDR, *PIPHDR;$/;"	t	typeref:struct:tagIPHDR
+IS_OPT	.\include\tftpd.h	81;"	d
+Item	.\qt_pro\item.cpp	/^Item::Item(QWidget *parent) :$/;"	f	class:Item
+Item	.\qt_pro\item.h	/^class Item : public QWidget$/;"	c
+Item	.\qt_pro\ui_item.h	/^    class Item: public Ui_Item {};$/;"	c	namespace:Ui
+LEFT_BRACE	.\src\inirw.c	8;"	d	file:
+LF	.\src\httpd.c	5;"	d	file:
+LOG_DEBU	.\include\logger.h	/^    LOG_DEBU,$/;"	e	enum:__anon6
+LOG_DIR	.\qt_pro\base.h	77;"	d
+LOG_DIR	.\qt_pro\base.h	81;"	d
+LOG_DIR	.\src\log.c	19;"	d	file:
+LOG_DIR	.\src\log.c	23;"	d	file:
+LOG_DIR	.\src\log.c	30;"	d	file:
+LOG_ERRO	.\include\logger.h	/^    LOG_ERRO$/;"	e	enum:__anon6
+LOG_ERR_FILE	.\qt_pro\base.h	78;"	d
+LOG_ERR_FILE	.\qt_pro\base.h	82;"	d
+LOG_ERR_FILE	.\src\log.c	20;"	d	file:
+LOG_ERR_FILE	.\src\log.c	24;"	d	file:
+LOG_ERR_FILE	.\src\log.c	31;"	d	file:
+LOG_INFO	.\include\logger.h	/^    LOG_INFO,$/;"	e	enum:__anon6
+LOG_LEVEL	.\include\logger.h	13;"	d
+LOG_WARN	.\include\logger.h	/^    LOG_WARN,$/;"	e	enum:__anon6
+MAINWINDOW_H	.\qt_pro\mainwindow.h	2;"	d
+MAP_FILE	.\src\mmap_cache.c	13;"	d	file:
+MAP_PRIVATE	.\src\mmap_cache.c	14;"	d	file:
+MAXHADDRLEN	.\include\dhcpd.h	276;"	d
+MAXHADDRLEN	.\include\socket.h	5;"	d
+MAXHADDRLEN	.\qt_pro\socket.h	5;"	d
+MAXPATH	.\src\path.c	5;"	d	file:
+MAXPKTSIZE	.\include\tftpd.h	84;"	d
+MAXTIMESTR	.\qt_pro\socket.cpp	116;"	d	file:
+MAXTIMESTR	.\src\socket.c	113;"	d	file:
+MAX_BUFLEN	.\include\base.h	99;"	d
+MAX_BUFLEN	.\qt_pro\base.h	91;"	d
+MAX_FILENAMELEN	.\include\base.h	100;"	d
+MAX_FILENAMELEN	.\qt_pro\base.h	92;"	d
+MAX_FILE_MMAP	.\include\mmap_cache.h	10;"	d
+MAX_FILE_SIZE	.\src\inirw.c	7;"	d	file:
+MAX_QUEUESIZE	.\include\queue.h	4;"	d
+MMAP_LIST_HASH	.\include\mmap_cache.h	8;"	d
+MMAP_LIST_MASK	.\include\mmap_cache.h	5;"	d
+MMAP_LIST_NEXT	.\include\mmap_cache.h	7;"	d
+MMAP_LIST_SIZE	.\include\mmap_cache.h	4;"	d
+MMAP_LIST_USE_MAX	.\include\mmap_cache.h	6;"	d
+MainWindow	.\qt_pro\mainwindow.cpp	/^MainWindow::MainWindow(QWidget *parent) :$/;"	f	class:MainWindow
+MainWindow	.\qt_pro\mainwindow.h	/^class MainWindow : public QMainWindow$/;"	c
+MainWindow	.\qt_pro\ui_mainwindow.h	/^    class MainWindow: public Ui_MainWindow {};$/;"	c	namespace:Ui
+NET_DHCP_KEY	.\include\configs.h	10;"	d
+NET_DNS1_KEY	.\include\configs.h	14;"	d
+NET_DNS2_KEY	.\include\configs.h	15;"	d
+NET_GATEWAY_KEY	.\include\configs.h	12;"	d
+NET_IP_KEY	.\include\configs.h	11;"	d
+NET_MAC_KEY	.\include\configs.h	16;"	d
+NET_NETMASK_KEY	.\include\configs.h	13;"	d
+NET_SECTION	.\include\configs.h	9;"	d
+NEXI	.\include\types.h	/^    NEXI,$/;"	e	enum:__anon12
+PARA	.\include\types.h	/^    PARA,$/;"	e	enum:__anon12
+PICMPHDR	.\include\ping.h	/^}ICMPHDR, *PICMPHDR;$/;"	t	typeref:struct:tagICMPHDR
+PINGAPI_ID	.\include\ping.h	15;"	d
+PINGAPI_INITERROR	.\include\ping.h	/^    PINGAPI_INITERROR,$/;"	e	enum:__anon7
+PINGAPI_PRIVERROR	.\include\ping.h	/^    PINGAPI_PRIVERROR,$/;"	e	enum:__anon7
+PINGAPI_SOCKERROR	.\include\ping.h	/^	PINGAPI_SOCKERROR = -1000,$/;"	e	enum:__anon7
+PINGAPI_TIMEOUT	.\include\ping.h	/^    PINGAPI_TIMEOUT,$/;"	e	enum:__anon7
+PINGAPI_TTLEXPIRE	.\include\ping.h	/^    PINGAPI_TTLEXPIRE$/;"	e	enum:__anon7
+PINGAPI_UNKNOWNPKT	.\include\ping.h	/^    PINGAPI_UNKNOWNPKT,$/;"	e	enum:__anon7
+PINGAPI_UNREACHABLE	.\include\ping.h	/^    PINGAPI_UNREACHABLE,$/;"	e	enum:__anon7
+PIPETHREAD_H	.\qt_pro\pipethread.h	2;"	d
+PIPHDR	.\include\ping.h	/^}IPHDR, *PIPHDR;$/;"	t	typeref:struct:tagIPHDR
+PKTSIZE	.\include\tftpd.h	83;"	d
+PROT_READ	.\src\mmap_cache.c	15;"	d	file:
+PipeThread	.\qt_pro\pipethread.cpp	/^PipeThread::PipeThread(int pipe_fd[2])$/;"	f	class:PipeThread
+PipeThread	.\qt_pro\pipethread.h	/^class PipeThread : public QThread$/;"	c
+RB_AUGMENT	.\include\tree.h	1009;"	d
+RB_AUGMENT	.\include\tree.h	332;"	d
+RB_BLACK	.\include\rbtree.h	105;"	d
+RB_BLACK	.\include\tree.h	303;"	d
+RB_BLACK	.\include\tree.h	980;"	d
+RB_CLEAR_NODE	.\include\rbtree.h	144;"	d
+RB_COLOR	.\include\tree.h	316;"	d
+RB_COLOR	.\include\tree.h	993;"	d
+RB_EMPTY	.\include\tree.h	318;"	d
+RB_EMPTY	.\include\tree.h	995;"	d
+RB_EMPTY_NODE	.\include\rbtree.h	143;"	d
+RB_EMPTY_ROOT	.\include\rbtree.h	142;"	d
+RB_ENTRY	.\include\tree.h	305;"	d
+RB_ENTRY	.\include\tree.h	982;"	d
+RB_FIND	.\include\tree.h	1344;"	d
+RB_FIND	.\include\tree.h	667;"	d
+RB_FOREACH	.\include\tree.h	1349;"	d
+RB_FOREACH	.\include\tree.h	672;"	d
+RB_GENERATE	.\include\tree.h	1066;"	d
+RB_GENERATE	.\include\tree.h	389;"	d
+RB_HEAD	.\include\tree.h	291;"	d
+RB_HEAD	.\include\tree.h	968;"	d
+RB_INF	.\include\tree.h	1340;"	d
+RB_INF	.\include\tree.h	663;"	d
+RB_INIT	.\include\tree.h	299;"	d
+RB_INIT	.\include\tree.h	976;"	d
+RB_INITIALIZER	.\include\tree.h	296;"	d
+RB_INITIALIZER	.\include\tree.h	973;"	d
+RB_INSERT	.\include\tree.h	1342;"	d
+RB_INSERT	.\include\tree.h	665;"	d
+RB_LEFT	.\include\tree.h	313;"	d
+RB_LEFT	.\include\tree.h	990;"	d
+RB_MAX	.\include\tree.h	1347;"	d
+RB_MAX	.\include\tree.h	670;"	d
+RB_MIN	.\include\tree.h	1346;"	d
+RB_MIN	.\include\tree.h	669;"	d
+RB_NEGINF	.\include\tree.h	1339;"	d
+RB_NEGINF	.\include\tree.h	662;"	d
+RB_NEXT	.\include\tree.h	1345;"	d
+RB_NEXT	.\include\tree.h	668;"	d
+RB_PARENT	.\include\tree.h	315;"	d
+RB_PARENT	.\include\tree.h	992;"	d
+RB_PROTOTYPE	.\include\tree.h	1053;"	d
+RB_PROTOTYPE	.\include\tree.h	376;"	d
+RB_RED	.\include\rbtree.h	104;"	d
+RB_RED	.\include\tree.h	304;"	d
+RB_RED	.\include\tree.h	981;"	d
+RB_REMOVE	.\include\tree.h	1343;"	d
+RB_REMOVE	.\include\tree.h	666;"	d
+RB_RIGHT	.\include\tree.h	314;"	d
+RB_RIGHT	.\include\tree.h	991;"	d
+RB_ROOT	.\include\rbtree.h	139;"	d
+RB_ROOT	.\include\tree.h	317;"	d
+RB_ROOT	.\include\tree.h	994;"	d
+RB_ROTATE_LEFT	.\include\tree.h	1012;"	d
+RB_ROTATE_LEFT	.\include\tree.h	335;"	d
+RB_ROTATE_RIGHT	.\include\tree.h	1032;"	d
+RB_ROTATE_RIGHT	.\include\tree.h	355;"	d
+RB_SET	.\include\tree.h	320;"	d
+RB_SET	.\include\tree.h	997;"	d
+RB_SET_BLACKRED	.\include\tree.h	1003;"	d
+RB_SET_BLACKRED	.\include\tree.h	326;"	d
+REQ_DATASIZE	.\include\ping.h	27;"	d
+RIGHT_BRACE	.\src\inirw.c	9;"	d	file:
+S0A	.\src\command.c	4;"	d	file:
+S1A	.\src\command.c	5;"	d	file:
+S2A	.\src\command.c	6;"	d	file:
+SAVE_FILE	.\include\logger.h	14;"	d
+SCHED_PRIORITY_DHCPD	.\include\base.h	107;"	d
+SCHED_PRIORITY_DHCPD	.\qt_pro\base.h	95;"	d
+SCHED_PRIORITY_EVENT	.\include\base.h	105;"	d
+SCHED_PRIORITY_TFTPD	.\include\base.h	106;"	d
+SCHED_PRIORITY_TFTPD	.\qt_pro\base.h	94;"	d
+SERVER_IP_KEY	.\include\configs.h	19;"	d
+SERVER_PORT	.\include\configs.h	21;"	d
+SERVER_PORT_KEY	.\include\configs.h	20;"	d
+SERVER_SECTION	.\include\configs.h	18;"	d
+SPLAY_ASSEMBLE	.\include\tree.h	105;"	d
+SPLAY_ASSEMBLE	.\include\tree.h	782;"	d
+SPLAY_EMPTY	.\include\tree.h	755;"	d
+SPLAY_EMPTY	.\include\tree.h	78;"	d
+SPLAY_ENTRY	.\include\tree.h	69;"	d
+SPLAY_ENTRY	.\include\tree.h	746;"	d
+SPLAY_FIND	.\include\tree.h	278;"	d
+SPLAY_FIND	.\include\tree.h	955;"	d
+SPLAY_FOREACH	.\include\tree.h	285;"	d
+SPLAY_FOREACH	.\include\tree.h	962;"	d
+SPLAY_GENERATE	.\include\tree.h	156;"	d
+SPLAY_GENERATE	.\include\tree.h	833;"	d
+SPLAY_HEAD	.\include\tree.h	57;"	d
+SPLAY_HEAD	.\include\tree.h	734;"	d
+SPLAY_INF	.\include\tree.h	274;"	d
+SPLAY_INF	.\include\tree.h	951;"	d
+SPLAY_INIT	.\include\tree.h	65;"	d
+SPLAY_INIT	.\include\tree.h	742;"	d
+SPLAY_INITIALIZER	.\include\tree.h	62;"	d
+SPLAY_INITIALIZER	.\include\tree.h	739;"	d
+SPLAY_INSERT	.\include\tree.h	276;"	d
+SPLAY_INSERT	.\include\tree.h	953;"	d
+SPLAY_LEFT	.\include\tree.h	752;"	d
+SPLAY_LEFT	.\include\tree.h	75;"	d
+SPLAY_LINKLEFT	.\include\tree.h	770;"	d
+SPLAY_LINKLEFT	.\include\tree.h	93;"	d
+SPLAY_LINKRIGHT	.\include\tree.h	776;"	d
+SPLAY_LINKRIGHT	.\include\tree.h	99;"	d
+SPLAY_MAX	.\include\tree.h	282;"	d
+SPLAY_MAX	.\include\tree.h	959;"	d
+SPLAY_MIN	.\include\tree.h	280;"	d
+SPLAY_MIN	.\include\tree.h	957;"	d
+SPLAY_NEGINF	.\include\tree.h	273;"	d
+SPLAY_NEGINF	.\include\tree.h	950;"	d
+SPLAY_NEXT	.\include\tree.h	279;"	d
+SPLAY_NEXT	.\include\tree.h	956;"	d
+SPLAY_PROTOTYPE	.\include\tree.h	114;"	d
+SPLAY_PROTOTYPE	.\include\tree.h	791;"	d
+SPLAY_REMOVE	.\include\tree.h	277;"	d
+SPLAY_REMOVE	.\include\tree.h	954;"	d
+SPLAY_RIGHT	.\include\tree.h	753;"	d
+SPLAY_RIGHT	.\include\tree.h	76;"	d
+SPLAY_ROOT	.\include\tree.h	754;"	d
+SPLAY_ROOT	.\include\tree.h	77;"	d
+SPLAY_ROTATE_LEFT	.\include\tree.h	764;"	d
+SPLAY_ROTATE_LEFT	.\include\tree.h	87;"	d
+SPLAY_ROTATE_RIGHT	.\include\tree.h	758;"	d
+SPLAY_ROTATE_RIGHT	.\include\tree.h	81;"	d
+STRPREFIX	.\src\tftpd.c	5;"	d	file:
+SUCC	.\include\types.h	/^    SUCC,$/;"	e	enum:__anon12
+SUCCESS	.\include\base.h	95;"	d
+SUCCESS	.\qt_pro\base.h	87;"	d
+TFTPD32_CONSOLE	.\include\dhcpd.h	/^    TFTPD32_CONSOLE      = 0x1000,$/;"	e	enum:e_services
+TFTPD32_DHCP_SERVER	.\include\dhcpd.h	/^    TFTPD32_DHCP_SERVER  = 0x0004,$/;"	e	enum:e_services
+TFTPD32_DNS_SERVER	.\include\dhcpd.h	/^    TFTPD32_DNS_SERVER   = 0x0020,$/;"	e	enum:e_services
+TFTPD32_NONE	.\include\dhcpd.h	/^	TFTPD32_NONE=0,$/;"	e	enum:e_services
+TFTPD32_REGISTRY	.\include\dhcpd.h	/^    TFTPD32_REGISTRY     = 0x2000,$/;"	e	enum:e_services
+TFTPD32_SCHEDULER	.\include\dhcpd.h	/^    TFTPD32_SCHEDULER    = 0x4000,$/;"	e	enum:e_services
+TFTPD32_SNTP_SERVER	.\include\dhcpd.h	/^    TFTPD32_SNTP_SERVER  = 0x0010,$/;"	e	enum:e_services
+TFTPD32_SYSLOG_SERVER	.\include\dhcpd.h	/^    TFTPD32_SYSLOG_SERVER= 0x0008,$/;"	e	enum:e_services
+TFTPD32_TFTP_CLIENT	.\include\dhcpd.h	/^    TFTPD32_TFTP_CLIENT  = 0x0002,$/;"	e	enum:e_services
+TFTPD32_TFTP_SERVER	.\include\dhcpd.h	/^    TFTPD32_TFTP_SERVER  = 0x0001,$/;"	e	enum:e_services
+TFTPD_DIR_KEY	.\include\configs.h	34;"	d
+TFTPD_OPT	.\include\tftp.h	/^    TFTPD_OPT = (1 << 7) * ENABLE_TFTPD,$/;"	e	enum:__anon10
+TFTPD_OPT_c	.\include\tftp.h	/^    TFTPD_OPT_c = (1 << 9) * ENABLE_TFTPD,$/;"	e	enum:__anon10
+TFTPD_OPT_l	.\include\tftp.h	/^    TFTPD_OPT_l = (1 << 11) * ENABLE_TFTPD,$/;"	e	enum:__anon10
+TFTPD_OPT_r	.\include\tftp.h	/^    TFTPD_OPT_r = (1 << 8) * ENABLE_TFTPD,$/;"	e	enum:__anon10
+TFTPD_OPT_u	.\include\tftp.h	/^    TFTPD_OPT_u = (1 << 10) * ENABLE_TFTPD,$/;"	e	enum:__anon10
+TFTPD_SECTION	.\include\configs.h	32;"	d
+TFTPD_TIMEOUT_KEY	.\include\configs.h	33;"	d
+TFTP_ACK	.\include\tftp.h	19;"	d
+TFTP_ACK	.\include\tftpd.h	31;"	d
+TFTP_ACK_HEADERSIZE	.\include\tftpd.h	53;"	d
+TFTP_BLKSIZE_DEFAULT	.\include\tftp.h	8;"	d
+TFTP_BLKSIZE_DEFAULT_STR	.\include\tftp.h	9;"	d
+TFTP_DATA	.\include\tftp.h	18;"	d
+TFTP_DATA	.\include\tftpd.h	30;"	d
+TFTP_DATA_HEADERSIZE	.\include\tftpd.h	52;"	d
+TFTP_ERROR	.\include\tftp.h	20;"	d
+TFTP_ERROR	.\include\tftpd.h	32;"	d
+TFTP_MAXSEGSIZE	.\include\tftpd.h	23;"	d
+TFTP_MAXTIMEOUT_MS	.\include\tftp.h	12;"	d
+TFTP_MINSEGSIZE	.\include\tftpd.h	24;"	d
+TFTP_NUM_RETRIES	.\include\tftp.h	13;"	d
+TFTP_OACK	.\include\tftp.h	21;"	d
+TFTP_OACK	.\include\tftpd.h	33;"	d
+TFTP_OPT_BLKSIZE	.\include\tftpd.h	77;"	d
+TFTP_OPT_GET	.\include\tftp.h	/^    TFTP_OPT_GET = (1 << 0),$/;"	e	enum:__anon10
+TFTP_OPT_MCAST	.\include\tftpd.h	78;"	d
+TFTP_OPT_PORT	.\include\tftpd.h	79;"	d
+TFTP_OPT_PUT	.\include\tftp.h	/^    TFTP_OPT_PUT = (1 << 1),$/;"	e	enum:__anon10
+TFTP_OPT_TIMEOUT	.\include\tftpd.h	76;"	d
+TFTP_OPT_TSIZE	.\include\tftpd.h	75;"	d
+TFTP_RRQ	.\include\tftp.h	16;"	d
+TFTP_RRQ	.\include\tftpd.h	28;"	d
+TFTP_SEGSIZE	.\include\tftpd.h	22;"	d
+TFTP_TIMEOUT_MS	.\include\tftp.h	11;"	d
+TFTP_WRQ	.\include\tftp.h	17;"	d
+TFTP_WRQ	.\include\tftpd.h	29;"	d
+TIMEOUT	.\include\base.h	103;"	d
+TIMEOUT	.\qt_pro\base.h	97;"	d
+TIMEZONE_OFFSET	.\src\log.c	26;"	d	file:
+TTF_DIR	.\qt_pro\base.h	79;"	d
+TTF_DIR	.\qt_pro\base.h	83;"	d
+TTF_DIR	.\src\log.c	21;"	d	file:
+TTF_DIR	.\src\log.c	25;"	d	file:
+UDP_BOARDCAST	.\include\socket.h	/^	UDP_BOARDCAST,		\/\/广播$/;"	e	enum:UDP_TYPE
+UDP_BOARDCAST	.\qt_pro\socket.h	/^    UDP_BOARDCAST,		\/\/广播$/;"	e	enum:UDP_TYPE
+UDP_ICMP	.\include\socket.h	/^	UDP_ICMP,			\/\/ICMP$/;"	e	enum:UDP_TYPE
+UDP_ICMP	.\qt_pro\socket.h	/^    UDP_ICMP,			\/\/ICMP$/;"	e	enum:UDP_TYPE
+UDP_MREQ	.\include\socket.h	/^	UDP_MREQ,			\/\/组播$/;"	e	enum:UDP_TYPE
+UDP_MREQ	.\qt_pro\socket.h	/^    UDP_MREQ,			\/\/组播$/;"	e	enum:UDP_TYPE
+UDP_NORMAL	.\include\socket.h	/^	UDP_NORMAL = 0,			\/\/udp$/;"	e	enum:UDP_TYPE
+UDP_NORMAL	.\qt_pro\socket.h	/^    UDP_NORMAL = 0,			\/\/udp$/;"	e	enum:UDP_TYPE
+UDP_TYPE	.\include\socket.h	/^enum UDP_TYPE$/;"	g
+UDP_TYPE	.\qt_pro\socket.h	/^enum UDP_TYPE$/;"	g
+UI_ITEM_H	.\qt_pro\ui_item.h	10;"	d
+UI_MAINWINDOW_H	.\qt_pro\ui_mainwindow.h	10;"	d
+Ui	.\qt_pro\item.h	/^namespace Ui {$/;"	n
+Ui	.\qt_pro\mainwindow.h	/^namespace Ui {$/;"	n
+Ui	.\qt_pro\ui_item.h	/^namespace Ui {$/;"	n
+Ui	.\qt_pro\ui_mainwindow.h	/^namespace Ui {$/;"	n
+Ui_Item	.\qt_pro\ui_item.h	/^class Ui_Item$/;"	c
+Ui_MainWindow	.\qt_pro\ui_mainwindow.h	/^class Ui_MainWindow$/;"	c
+VERSION_SECTION	.\include\configs.h	41;"	d
+VER_LINUX_KEY	.\include\configs.h	44;"	d
+VER_MAJOR_KEY	.\include\configs.h	42;"	d
+VER_MINOR_KEY	.\include\configs.h	43;"	d
+WRITE_FILE	.\src\httpd.c	339;"	d	file:
+_CRT_SECURE_NO_WARNINGS	.\include\httpd.h	4;"	d
+_SLINUX_RBTREE_H	.\include\rbtree.h	95;"	d
+_SYS_TREE_H_	.\include\tree.h	28;"	d
+_SYS_TREE_H_	.\include\tree.h	705;"	d
+_TIME_	.\qt_pro\external.cpp	12;"	d	file:
+__BASE_H__	.\include\base.h	2;"	d
+__BASE_H__	.\qt_pro\base.h	2;"	d
+__CGI_H__	.\include\cgi.h	2;"	d
+__CLIENT_H__	.\include\client.h	2;"	d
+__CLIENT_H__	.\qt_pro\client.h	2;"	d
+__COMMAND_H__	.\include\command.h	2;"	d
+__CONFIGS_H__	.\include\configs.h	2;"	d
+__DEBUG__	.\include\base.h	70;"	d
+__DEBUG__	.\qt_pro\base.h	54;"	d
+__DHCPD_H__	.\include\dhcpd.h	2;"	d
+__DICT_H__	.\include\dict.h	2;"	d
+__EVENT_H__	.\include\event.h	2;"	d
+__EXTERNAL_H__	.\include\external.h	2;"	d
+__EXTERNAL_H__	.\qt_pro\external.h	2;"	d
+__GLOBAL_H__	.\include\global.h	2;"	d
+__HTTPD_H__	.\include\httpd.h	2;"	d
+__HTTP_H__	.\include\http.h	2;"	d
+__LIST_H__	.\include\list.h	2;"	d
+__LOGGER_H__	.\include\logger.h	2;"	d
+__MMAP_CACHE_H__	.\include\mmap_cache.h	2;"	d
+__NETWORK_H__	.\include\network.h	2;"	d
+__NETWORK_H__	.\qt_pro\network.h	2;"	d
+__PING_H__	.\include\ping.h	2;"	d
+__PIPE_H__	.\include\pipe.h	2;"	d
+__QUEUE_H__	.\include\queue.h	2;"	d
+__SOCKET_H__	.\include\socket.h	2;"	d
+__SOCKET_H__	.\qt_pro\socket.h	2;"	d
+__TFTPD_H__	.\include\tftpd.h	2;"	d
+__TFTP_H__	.\include\tftp.h	2;"	d
+__TYPE_S_H_	.\include\types.h	2;"	d
+__UI_H__	.\include\ui.h	2;"	d
+__UTILS_H__	.\include\utils.h	2;"	d
+__rb_erase_color	.\src\rbtree.c	/^static void __rb_erase_color(struct rb_node *node, struct rb_node *parent,$/;"	f	file:
+__rb_rotate_left	.\src\rbtree.c	/^static void __rb_rotate_left(struct rb_node *node, struct rb_root *root)$/;"	f	file:
+__rb_rotate_right	.\src\rbtree.c	/^static void __rb_rotate_right(struct rb_node *node, struct rb_root *root)$/;"	f	file:
+_active_ns	.\src\event.c	/^struct rbnode_t *_active_ns[FD_SETSIZE * 3] = { 0 };$/;"	v	typeref:struct:rbnode_t
+_active_size	.\src\event.c	/^uint32_t         _active_size               = 0;$/;"	v
+_count_string	.\src\path.c	/^int _count_string(char *data, char *key)  $/;"	f
+_exceptfds	.\src\event.c	/^fd_set           _exceptfds                 = { 0 };$/;"	v
+_req_head	.\qt_pro\pipethread.cpp	/^typedef struct _req_head$/;"	s	file:
+_writefds	.\src\event.c	/^fd_set           _writefds                  = { 0 };$/;"	v
+about	.\qt_pro\mainwindow.cpp	/^void MainWindow::about()$/;"	f	class:MainWindow
+aboutAct	.\qt_pro\mainwindow.h	/^    QAction *aboutAct;$/;"	m	class:MainWindow
+accept_callback	.\src\httpd.c	/^static void accept_callback(event_t *ev)$/;"	f	file:
+ackbuf	.\include\client.h	/^	char ackbuf[DATA_SIZE];$/;"	m	struct:client
+ackbuf	.\qt_pro\client.h	/^    char ackbuf[DATA_SIZE];$/;"	m	struct:client
+action	.\include\command.h	/^	void (*action)(char *, char *, void *);$/;"	m	struct:command
+actionAbout	.\qt_pro\ui_mainwindow.h	/^    QAction *actionAbout;$/;"	m	class:Ui_MainWindow
+actionClear	.\qt_pro\ui_mainwindow.h	/^    QAction *actionClear;$/;"	m	class:Ui_MainWindow
+actionClose	.\qt_pro\ui_mainwindow.h	/^    QAction *actionClose;$/;"	m	class:Ui_MainWindow
+actionExit	.\qt_pro\ui_mainwindow.h	/^    QAction *actionExit;$/;"	m	class:Ui_MainWindow
+actionOpen	.\qt_pro\ui_mainwindow.h	/^    QAction *actionOpen;$/;"	m	class:Ui_MainWindow
+actionSave	.\qt_pro\ui_mainwindow.h	/^    QAction *actionSave;$/;"	m	class:Ui_MainWindow
+actionSave_As	.\qt_pro\ui_mainwindow.h	/^    QAction *actionSave_As;$/;"	m	class:Ui_MainWindow
+actionStart	.\qt_pro\ui_mainwindow.h	/^    QAction *actionStart;$/;"	m	class:Ui_MainWindow
+actionStop	.\qt_pro\ui_mainwindow.h	/^    QAction *actionStop;$/;"	m	class:Ui_MainWindow
+actionVersion	.\qt_pro\ui_mainwindow.h	/^    QAction *actionVersion;$/;"	m	class:Ui_MainWindow
+addItem	.\qt_pro\mainwindow.cpp	/^void MainWindow::addItem(int index, char *ip, char *mac)$/;"	f	class:MainWindow
+add_client	.\src\client.c	/^struct client* add_client(char *ip, unsigned long *mac)$/;"	f
+add_dict	.\src\dict.c	/^int add_dict()$/;"	f
+add_inc	.\src\ping.c	/^unsigned long add_inc(struct in_addr in)$/;"	f
+add_node_head_list	.\src\list.c	/^list *add_node_head_list()$/;"	f
+add_node_tail_list	.\src\list.c	/^list *add_node_tail_list()$/;"	f
+add_option	.\include\dhcpd.h	/^        int add_option;$/;"	m	struct:dhcp_conf::__anon1
+add_option_buf	.\include\dhcpd.h	/^        char add_option_buf[128];$/;"	m	struct:dhcp_conf::__anon1
+add_raw_dict	.\src\dict.c	/^dict_entry *add_raw_dict()$/;"	f
+addr	.\include\client.h	/^	struct in_addr addr;$/;"	m	struct:client	typeref:struct:client::in_addr
+addr	.\qt_pro\client.h	/^    struct in_addr addr;$/;"	m	struct:client	typeref:struct:client::in_addr
+addr_fits_pool	.\qt_pro\socket.cpp	/^int addr_fits_pool()$/;"	f
+addr_fits_pool	.\src\socket.c	/^int addr_fits_pool()$/;"	f
+addr_inc	.\qt_pro\socket.cpp	/^unsigned long addr_inc(struct in_addr in)$/;"	f
+addr_inc	.\src\socket.c	/^unsigned long addr_inc(struct in_addr in)$/;"	f
+again	.\include\dhcpd.h	/^	int again;$/;"	m	struct:dhcp_conf
+alarm_handler	.\src\alarm.c	/^void alarm_handler(int sig)$/;"	f
+alarm_timeout	.\src\alarm.c	/^static unsigned int alarm_timeout = 0;$/;"	v	file:
+alloc_client	.\src\client.c	/^struct client* alloc_client(unsigned long *mac, int index)$/;"	f
+ansi_to_unicode	.\src\utils.c	/^wchar_t* ansi_to_unicode(char* str)$/;"	f
+ansi_to_utf8	.\src\utils.c	/^char* ansi_to_utf8(char* str)$/;"	f
+atohaddr	.\qt_pro\socket.cpp	/^void atohaddr(const unsigned char *addrstr, unsigned char *haddr, int haddrlen)$/;"	f
+atohaddr	.\src\socket.c	/^void atohaddr(const unsigned char *addrstr, unsigned char *haddr, int haddrlen)$/;"	f
+atotime	.\qt_pro\socket.cpp	/^time_t atotime(char* str)$/;"	f
+atotime	.\src\socket.c	/^time_t atotime(char* str)$/;"	f
+b1	.\src\dhcpd.c	/^	unsigned char b1;$/;"	m	struct:m_addr	file:
+b2	.\src\dhcpd.c	/^	unsigned char b2;$/;"	m	struct:m_addr	file:
+b3	.\src\dhcpd.c	/^	unsigned char b3;$/;"	m	struct:m_addr	file:
+b4	.\src\dhcpd.c	/^	unsigned char b4;$/;"	m	struct:m_addr	file:
+bind_socket	.\qt_pro\socket.cpp	/^int bind_socket(int fd, int port)$/;"	f
+bind_socket	.\src\socket.c	/^int bind_socket(int fd, int port)$/;"	f
+blksize	.\include\client.h	/^	unsigned int blksize;$/;"	m	struct:client
+blksize	.\qt_pro\client.h	/^    unsigned int blksize;$/;"	m	struct:client
+boardcast_addr	.\include\configs.h	/^    unsigned char boardcast_addr[32];$/;"	m	struct:netcard_conf
+boundary	.\include\event.h	/^    char                    boundary[BOUNDARY_MAX_LEN];$/;"	m	struct:__anon5
+buf	.\include\queue.h	/^	unsigned char *buf;$/;"	m	struct:__anon8
+buf	.\include\queue.h	/^	unsigned char *buf;$/;"	m	struct:__anon9
+c_dir	.\src\log.c	/^static char c_dir[MAX_FILENAMELEN];$/;"	v	file:
+callback	.\include\event.h	/^    void (*callback) (event_t*);$/;"	m	struct:event_t
+cb_interface	.\qt_pro\ui_mainwindow.h	/^    QComboBox *cb_interface;$/;"	m	class:Ui_MainWindow
+centralWidget	.\qt_pro\ui_mainwindow.h	/^    QWidget *centralWidget;$/;"	m	class:Ui_MainWindow
+chaddr	.\include\dhcpd.h	/^    unsigned char chaddr [16];    \/* 24: Client hardware address *\/$/;"	m	struct:dhcp_packet
+checksum	.\include\ping.h	/^	unsigned short checksum; \/\/Checksum$/;"	m	struct:tagIPHDR
+checksum	.\include\ping.h	/^	unsigned short checksum;$/;"	m	struct:tagICMPHDR
+chunked	.\src\http.c	/^static int chunked = 0;$/;"	v	file:
+ciaddr	.\include\dhcpd.h	/^    struct in_addr ciaddr;        \/* 12: Client IP address (if already in use) *\/$/;"	m	struct:dhcp_packet	typeref:struct:dhcp_packet::in_addr
+clean_path	.\src\path.c	/^void clean_path(char *path)$/;"	f
+clearAct	.\qt_pro\mainwindow.h	/^    QAction *clearAct;$/;"	m	class:MainWindow
+clearItem	.\qt_pro\mainwindow.cpp	/^void MainWindow::clearItem()$/;"	f	class:MainWindow
+clear_common_env	.\src\cgi.c	/^void clear_common_env(void)$/;"	f
+clear_queue	.\src\queue.c	/^void clear_queue(queue *p)$/;"	f
+client	.\include\client.h	/^struct client $/;"	s
+client	.\qt_pro\client.h	/^struct client$/;"	s
+clients	.\qt_pro\global.h	/^    struct client **clients;$/;"	m	class:Global	typeref:struct:Global::client
+clients	.\src\client.c	/^struct client **clients = NULL;$/;"	v	typeref:struct:client
+close_fd	.\qt_pro\socket.cpp	/^void close_fd(int fd)$/;"	f
+close_fd	.\src\socket.c	/^void close_fd(int fd)$/;"	f
+close_logs	.\src\log.c	/^void close_logs()$/;"	f
+close_pipe	.\qt_pro\pipethread.cpp	/^void PipeThread::close_pipe()$/;"	f	class:PipeThread
+close_pipe	.\src\pipe.c	/^void close_pipe()$/;"	f
+cmd	.\qt_pro\pipethread.cpp	/^    unsigned short cmd;$/;"	m	struct:_req_head	file:
+code	.\include\ping.h	/^	unsigned char code;$/;"	m	struct:tagICMPHDR
+command	.\include\command.h	/^struct command {$/;"	s
+common_cgi_env	.\src\cgi.c	/^static char *common_cgi_env[COMMON_CGI_COUNT + 1];$/;"	v	file:
+compare	.\src\event.c	/^static int compare(struct rbnode_t *n1, struct rbnode_t *n2)$/;"	f	file:
+conf	.\src\configs.c	/^struct configs conf = {0};$/;"	v	typeref:struct:configs
+config_ver	.\include\configs.h	/^    int config_ver;$/;"	m	struct:configs
+configs	.\include\configs.h	/^struct configs{$/;"	s
+connect_server	.\qt_pro\socket.cpp	/^int connect_server(int fd, const char *ip, int port)$/;"	f
+connect_server	.\src\socket.c	/^int connect_server(int fd, const char *ip, int port)$/;"	f
+content_len	.\src\http.c	/^static off_t content_len = 0;$/;"	v	file:
+createMenus	.\qt_pro\mainwindow.cpp	/^void MainWindow::createMenus()$/;"	f	class:MainWindow
+create_boardcast_recv	.\qt_pro\socket.cpp	/^int create_boardcast_recv(const char *ip, const int port)$/;"	f
+create_boardcast_recv	.\src\socket.c	/^int create_boardcast_recv(const char *ip, const int port)$/;"	f
+create_boardcast_send	.\qt_pro\socket.cpp	/^int create_boardcast_send(const char *ip, const int port)$/;"	f
+create_boardcast_send	.\src\socket.c	/^int create_boardcast_send(const char *ip, const int port)$/;"	f
+create_common_env	.\src\cgi.c	/^void create_common_env()$/;"	f
+create_event_data	.\src\httpd.c	/^static event_data_t *create_event_data(const char *header, const char *html)$/;"	f	file:
+create_event_data_fp	.\src\httpd.c	/^static event_data_t *create_event_data_fp(const char *header, FILE *fp, int read_len, int total_len)$/;"	f	file:
+create_rbnode	.\src\event.c	/^static struct rbnode_t *create_rbnode(event_t *ev)$/;"	f	file:
+create_tcp	.\qt_pro\socket.cpp	/^int create_tcp()$/;"	f
+create_tcp	.\src\socket.c	/^int create_tcp()$/;"	f
+create_udp_accept	.\qt_pro\socket.cpp	/^int create_udp_accept(struct sockaddr_in *recv_addr)$/;"	f
+create_udp_accept	.\src\socket.c	/^int create_udp_accept(struct sockaddr_in *recv_addr)$/;"	f
+create_udp_client	.\qt_pro\socket.cpp	/^int create_udp_client(const char *ip, const int port)$/;"	f
+create_udp_client	.\src\socket.c	/^int create_udp_client(const char *ip, const int port)$/;"	f
+create_udp_server	.\qt_pro\socket.cpp	/^int create_udp_server(const int port, struct sockaddr_in *recv_addr)$/;"	f
+create_udp_server	.\src\socket.c	/^int create_udp_server(const int port, struct sockaddr_in *recv_addr)$/;"	f
+create_window	.\qt_pro\external.cpp	/^int create_window(int pipe[2], struct client **clients)$/;"	f
+current_time	.\src\main.c	/^time_t current_time;$/;"	v
+d	.\include\dict.h	/^		double d;$/;"	m	union:dict_entry::__anon2
+d	.\include\dict.h	/^	dict *d;$/;"	m	struct:dict_iterator
+data	.\include\event.h	/^    char                    data[1];$/;"	m	struct:__anon5
+data	.\include\event.h	/^    event_data_t           *data;       \/\/ event_data_t*$/;"	m	struct:event_t
+data	.\include\ping.h	/^	char data;$/;"	m	struct:tagICMPHDR
+data_buf	.\include\client.h	/^	unsigned char *data_buf;$/;"	m	struct:client
+data_buf	.\qt_pro\client.h	/^    unsigned char *data_buf;$/;"	m	struct:client
+data_label	.\qt_pro\global.h	/^    QLabel *data_label;$/;"	m	class:Global
+data_size	.\include\client.h	/^	unsigned int data_size;$/;"	m	struct:client
+data_size	.\qt_pro\client.h	/^    unsigned int data_size;$/;"	m	struct:client
+data_size	.\qt_pro\pipethread.cpp	/^    unsigned int data_size;$/;"	m	struct:_req_head	file:
+day_tab	.\src\log.c	/^const char day_tab[] = "Sun,Mon,Tue,Wed,Thu,Fri,Sat,";$/;"	v
+de_queue	.\src\queue.c	/^queue_index *de_queue(queue *p)$/;"	f
+de_queue_pos	.\src\queue.c	/^unsigned char de_queue_pos(queue *p)$/;"	f
+delItem	.\qt_pro\mainwindow.cpp	/^void MainWindow::delItem(int index)$/;"	f	class:MainWindow
+del_client	.\src\client.c	/^void del_client()$/;"	f
+del_node_list	.\src\list.c	/^void del_node_list()$/;"	f
+desc	.\include\dhcpd.h	/^    char *desc;$/;"	m	struct:dhcp_type
+dev	.\include\mmap_cache.h	/^	dev_t dev;$/;"	m	struct:mmap_entry
+dhcp	.\include\configs.h	/^	struct dhcp_conf dhcp;$/;"	m	struct:configs	typeref:struct:configs::dhcp_conf
+dhcp_agent_len	.\src\dhcpd.c	/^static int dhcp_agent_len = 0;$/;"	v	file:
+dhcp_agent_opt	.\src\dhcpd.c	/^static unsigned char dhcp_agent_opt[1024];$/;"	v	file:
+dhcp_conf	.\include\dhcpd.h	/^struct dhcp_conf$/;"	s
+dhcp_conf	.\include\dhcpd.h	/^typedef struct dhcp_conf dhcp_conf;$/;"	t	typeref:struct:dhcp_conf
+dhcp_destroy_item	.\src\dhcpd.c	/^void dhcp_destroy_item(struct client *cli)$/;"	f
+dhcp_double_answer	.\src\dhcpd.c	/^static int dhcp_double_answer = 1;$/;"	v	file:
+dhcp_index	.\src\dhcpd.c	/^static int dhcp_index = 0;$/;"	v	file:
+dhcp_option	.\include\dhcpd.h	/^struct dhcp_option$/;"	s
+dhcp_option_reply	.\src\dhcpd.c	/^int dhcp_option_reply(struct dhcp_packet *pkt, int type, struct client *cli, char *boot_file)$/;"	f
+dhcp_opts	.\include\dhcpd.h	/^static struct dhcp_option dhcp_opts[] =$/;"	v	typeref:struct:dhcp_option
+dhcp_packet	.\include\dhcpd.h	/^struct dhcp_packet $/;"	s
+dhcp_realloc_item	.\src\dhcpd.c	/^struct client *dhcp_realloc_item(struct in_addr addr,unsigned long *mac)$/;"	f
+dhcp_recv	.\src\dhcpd.c	/^int dhcp_recv(int fd ,struct sockaddr_in *recv_addr, struct sockaddr_in *send_addr, struct dhcp_packet *pkt, int len)$/;"	f
+dhcp_search_client	.\src\dhcpd.c	/^struct client *dhcp_search_client(unsigned long *mac)$/;"	f
+dhcp_search_options	.\src\dhcpd.c	/^unsigned char *dhcp_search_options(unsigned char *opt, int field, int *len)$/;"	f
+dhcp_send	.\src\dhcpd.c	/^int dhcp_send(int sockfd, struct sockaddr_in *send_addr, struct sockaddr_in *recv_addr, struct dhcp_packet *pkt, int len, int unicast)$/;"	f
+dhcp_send_lease	.\src\dhcpd.c	/^void dhcp_send_lease(int lease)$/;"	f
+dhcp_set_time	.\src\dhcpd.c	/^void dhcp_set_time(struct client *cli)$/;"	f
+dhcp_type	.\include\dhcpd.h	/^struct dhcp_type$/;"	s
+dhcp_types	.\include\dhcpd.h	/^static struct dhcp_type dhcp_types[] =$/;"	v	typeref:struct:dhcp_type
+dhcpd_loop	.\src\dhcpd.c	/^int dhcpd_loop()$/;"	f
+dict	.\include\dict.h	/^typedef struct dict {$/;"	s
+dict	.\include\dict.h	/^}dict;$/;"	t	typeref:struct:dict
+dict_can_resize	.\src\dict.c	/^static int dict_can_resize = 1;$/;"	v	file:
+dict_entry	.\include\dict.h	/^typedef struct dict_entry {$/;"	s
+dict_entry	.\include\dict.h	/^}dict_entry;$/;"	t	typeref:struct:dict_entry
+dict_force_resize_ratio	.\src\dict.c	/^static unsigned int dict_force_resize_ratio = 5;$/;"	v	file:
+dict_hash_function_seed	.\src\dict.c	/^static uint8_t dict_hash_function_seed[16];$/;"	v	file:
+dict_iterator	.\include\dict.h	/^typedef struct dict_iterator{$/;"	s
+dict_iterator	.\include\dict.h	/^}dict_iterator;$/;"	t	typeref:struct:dict_iterator
+dict_type	.\include\dict.h	/^typedef struct dict_type{$/;"	s
+dict_type	.\include\dict.h	/^}dict_type;$/;"	t	typeref:struct:dict_type
+dictht	.\include\dict.h	/^typedef struct dictht {$/;"	s
+dictht	.\include\dict.h	/^}dictht;$/;"	t	typeref:struct:dictht
+die_if_timeout	.\src\alarm.c	/^static int die_if_timeout = 0;$/;"	v	file:
+dir	.\include\configs.h	/^    char dir[128];$/;"	m	struct:http_conf
+dir	.\include\httpd.h	/^	char dir[128];	$/;"	m	struct:http_conf
+dir	.\include\tftpd.h	/^	char dir[128];$/;"	m	struct:tftp_conf
+dns1	.\include\configs.h	/^    unsigned char dns1[32];$/;"	m	struct:netcard_conf
+dns1	.\include\dhcpd.h	/^    char dns1[64];$/;"	m	struct:dhcp_conf
+dns2	.\include\configs.h	/^    unsigned char dns2[32];$/;"	m	struct:netcard_conf
+dns2	.\include\dhcpd.h	/^    char dns2[64];$/;"	m	struct:dhcp_conf
+dns_edit	.\qt_pro\ui_mainwindow.h	/^    QLineEdit *dns_edit;$/;"	m	class:Ui_MainWindow
+dns_label	.\qt_pro\ui_mainwindow.h	/^    QLabel *dns_label;$/;"	m	class:Ui_MainWindow
+do_exit	.\src\main.c	/^void do_exit()$/;"	f
+domain_name	.\include\dhcpd.h	/^    char domain_name[128];$/;"	m	struct:dhcp_conf
+download_bar	.\qt_pro\ui_item.h	/^    QProgressBar *download_bar;$/;"	m	class:Ui_Item
+dup	.\include\list.h	/^	void *(*dup) (void *ptr);$/;"	m	struct:list
+dup_list	.\src\list.c	/^list *dup_list()$/;"	f
+e_services	.\include\dhcpd.h	/^enum e_services $/;"	g
+echo_reply	.\include\ping.h	/^struct echo_reply$/;"	s
+echo_req	.\include\ping.h	/^	struct echo_request echo_req;$/;"	m	struct:echo_reply	typeref:struct:echo_reply::echo_request
+echo_request	.\include\ping.h	/^struct echo_request$/;"	s
+empty_list	.\src\list.c	/^void empty_list(list *list)$/;"	f
+empty_queue	.\src\queue.c	/^unsigned char empty_queue(queue *p)$/;"	f
+en_queue	.\src\queue.c	/^unsigned char en_queue(queue *p, unsigned char *data, unsigned int size, unsigned char type)$/;"	f
+encrypt_flag	.\qt_pro\pipethread.cpp	/^    unsigned char encrypt_flag;$/;"	m	struct:_req_head	file:
+end_of_string	.\src\inirw.c	/^static int end_of_string(char c)$/;"	f	file:
+entry	.\include\dict.h	/^	dict_entry *entry, *next_entry;$/;"	m	struct:dict_iterator
+env	.\src\signals.c	/^sigjmp_buf env;$/;"	v
+env_gen_extra	.\src\cgi.c	/^static char *env_gen_extra(const char *key, const char *value, int extra)$/;"	f	file:
+err_msg	.\src\log.c	/^void err_msg(const char *fmt, ...)$/;"	f
+errmsgs	.\include\tftpd.h	/^static const char * const errmsgs[] =$/;"	v
+ev	.\src\event.c	/^    event_t           *ev;$/;"	m	struct:rbnode_t	file:
+event_add	.\src\event.c	/^ret_code_t event_add(event_t *ev)$/;"	f
+event_data_t	.\include\event.h	/^} event_data_t;$/;"	t	typeref:struct:__anon5
+event_del	.\src\event.c	/^ret_code_t event_del(event_t *ev)$/;"	f
+event_del_by_fd	.\src\event.c	/^static int event_del_by_fd(uint32_t fd, struct rbtree_t *t, fd_set *s)$/;"	f	file:
+event_dispatch	.\src\event.c	/^ret_code_t event_dispatch()$/;"	f
+event_init	.\src\event.c	/^ret_code_t event_init()$/;"	f
+event_status_t	.\include\event.h	/^} event_status_t;$/;"	t	typeref:enum:__anon4
+event_t	.\include\event.h	/^struct event_t$/;"	s
+event_t	.\include\event.h	/^typedef struct event_t event_t;$/;"	t	typeref:struct:event_t
+event_type_t	.\include\event.h	/^} event_type_t;$/;"	t	typeref:enum:__anon3
+event_uninit	.\src\event.c	/^ret_code_t event_uninit()$/;"	f
+exitAct	.\qt_pro\mainwindow.h	/^    QAction *exitAct;$/;"	m	class:MainWindow
+expand_dict	.\src\dict.c	/^int expand_dict()$/;"	f
+fd	.\include\client.h	/^ 	int fd; $/;"	m	struct:client
+fd	.\include\dhcpd.h	/^	int fd;$/;"	m	struct:dhcp_conf
+fd	.\include\event.h	/^    uint32_t                fd;         \/\/ socket$/;"	m	struct:event_t
+fd	.\qt_pro\client.h	/^    int fd;$/;"	m	struct:client
+fgets_trim_sanitize	.\src\http.c	/^static char fgets_trim_sanitize(FILE *fp, const char *fmt, char *http_buf)$/;"	f	file:
+fields	.\src\httpd.c	/^    request_fields_t    *fields;$/;"	m	struct:__anon14	file:
+fields_count	.\src\httpd.c	/^    uint8_t             fields_count;$/;"	m	struct:__anon14	file:
+file	.\include\client.h	/^	FILE *file;$/;"	m	struct:client
+file	.\include\dhcpd.h	/^    char file [DHCP_FILE_LEN];    \/* 104: Boot filename *\/$/;"	m	struct:dhcp_packet
+file	.\include\event.h	/^    char                    file[MAX_PATH];$/;"	m	struct:__anon5
+file	.\qt_pro\client.h	/^    FILE *file;$/;"	m	struct:client
+fileMenu	.\qt_pro\mainwindow.h	/^    QMenu *fileMenu;$/;"	m	class:MainWindow
+file_exist	.\src\utils.c	/^int file_exist(char *file_name)$/;"	f
+file_ext	.\src\utils.c	/^char* file_ext(char* file_name)$/;"	f
+filler	.\include\ping.h	/^	char filler[256];$/;"	m	struct:echo_reply
+find_mmap	.\src\mmap_cache.c	/^struct mmap_entry *find_mmap(int data_fd, struct stat *s)$/;"	f
+find_named_mmap	.\src\mmap_cache.c	/^struct mmap_entry *find_named_mmap(char *fname)$/;"	f
+find_rbnode	.\src\event.c	/^static struct rbnode_t *find_rbnode(uint32_t fd, struct rbtree_t *t)$/;"	f	file:
+fingerprint	.\include\dict.h	/^	long long fingerprint;$/;"	m	struct:dict_iterator
+flag	.\include\client.h	/^	int flag;$/;"	m	struct:client
+flag	.\qt_pro\client.h	/^    int flag;$/;"	m	struct:client
+flag_off	.\include\ping.h	/^	short flag_off;			\/\/Flags and Fragment Offset$/;"	m	struct:tagIPHDR
+flags	.\include\dhcpd.h	/^    uint16_t flags;              \/* 10: Flag bits *\/$/;"	m	struct:dhcp_packet
+formLayout	.\qt_pro\ui_mainwindow.h	/^    QFormLayout *formLayout;$/;"	m	class:Ui_MainWindow
+formLayout_2	.\qt_pro\ui_mainwindow.h	/^    QFormLayout *formLayout_2;$/;"	m	class:Ui_MainWindow
+fp	.\include\event.h	/^    FILE                   *fp;         \/\/ fixed fopen EACCES error. just for write file$/;"	m	struct:__anon5
+fp_err	.\src\log.c	/^static FILE *fp_err = NULL;$/;"	v	file:
+fp_log	.\src\log.c	/^static FILE *fp_log = NULL;$/;"	v	file:
+free	.\include\list.h	/^	void (*free) (void *ptr);$/;"	m	struct:list
+free_clients	.\src\client.c	/^void free_clients()$/;"	f
+front	.\include\queue.h	/^	unsigned int front;$/;"	m	struct:__anon9
+full_queue	.\src\queue.c	/^unsigned char full_queue(queue *p)$/;"	f
+gateway	.\include\configs.h	/^    unsigned char gateway[32];$/;"	m	struct:netcard_conf
+gateway	.\include\dhcpd.h	/^    char gateway[64];$/;"	m	struct:dhcp_conf
+gen_case_hash_function	.\src\dict.c	/^uint64_t gen_case_hash_function(const unsigned char *buf, int len)$/;"	f
+gen_hash_function	.\src\dict.c	/^uint64_t gen_hash_function(const void *key, int len)$/;"	f
+getGlobal	.\qt_pro\global.cpp	/^Global *Global::getGlobal()$/;"	f	class:Global
+getStaticMetaObject	.\qt_pro\debug\moc_global.cpp	/^const QMetaObject &Global::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:Global
+getStaticMetaObject	.\qt_pro\debug\moc_item.cpp	/^const QMetaObject &Item::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:Item
+getStaticMetaObject	.\qt_pro\debug\moc_mainwindow.cpp	/^const QMetaObject &MainWindow::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:MainWindow
+getStaticMetaObject	.\qt_pro\debug\moc_pipethread.cpp	/^const QMetaObject &PipeThread::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:PipeThread
+get_client	.\src\client.c	/^int get_client(unsigned long *mac)$/;"	f
+get_commonlog_time	.\src\log.c	/^char *get_commonlog_time(void)$/;"	f
+get_free_index	.\src\client.c	/^int get_free_index(int index)$/;"	f
+get_hash_function_seed_dict	.\src\dict.c	/^uint8_t *get_hash_function_seed_dict(void)$/;"	f
+get_list_iterator	.\src\list.c	/^list_iter *get_list_iterator()$/;"	f
+get_sanitized_hdr	.\src\http.c	/^static char *get_sanitized_hdr(FILE *fp, char *buf)$/;"	f	file:
+get_total_client	.\src\client.c	/^int get_total_client()$/;"	f
+get_version	.\src\version.c	/^void get_version(int *major, int *minor)$/;"	f
+giaddr	.\include\dhcpd.h	/^    struct in_addr giaddr;        \/* 20: DHCP relay agent IP address *\/$/;"	m	struct:dhcp_packet	typeref:struct:dhcp_packet::in_addr
+got_clean	.\src\http.c	/^static int got_clean = 0;$/;"	v	file:
+groupBox	.\qt_pro\ui_mainwindow.h	/^    QGroupBox *groupBox;$/;"	m	class:Ui_MainWindow
+haddrtoa	.\qt_pro\socket.cpp	/^char *haddrtoa(const unsigned char *haddr, int len, char sep)$/;"	f
+haddrtoa	.\src\socket.c	/^char *haddrtoa(const unsigned char *haddr, int len, char sep)$/;"	f
+handle_sigbus	.\src\signals.c	/^static int handle_sigbus;$/;"	v	file:
+head	.\include\list.h	/^	list_node *head;$/;"	m	struct:list
+helpMenu	.\qt_pro\mainwindow.h	/^    QMenu *helpMenu;$/;"	m	class:MainWindow
+hfs	.\include\configs.h	/^	int hfs;$/;"	m	struct:http_conf
+hlen	.\include\dhcpd.h	/^    uint8_t  hlen;               \/* 2: Hardware addr length *\/$/;"	m	struct:dhcp_packet
+hops	.\include\dhcpd.h	/^    uint8_t  hops;               \/* 3: Number of relay agent hops from client *\/$/;"	m	struct:dhcp_packet
+horizontalLayout	.\qt_pro\ui_item.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_Item
+horizontalLayout	.\qt_pro\ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_MainWindow
+horizontalLayout_2	.\qt_pro\ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_2;$/;"	m	class:Ui_MainWindow
+horizontalLayout_3	.\qt_pro\ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_3;$/;"	m	class:Ui_MainWindow
+ht	.\include\dict.h	/^	dictht ht[2];$/;"	m	struct:dict
+http	.\include\configs.h	/^	struct http_conf http;$/;"	m	struct:configs	typeref:struct:configs::http_conf
+http_conf	.\include\configs.h	/^struct http_conf$/;"	s
+http_conf	.\include\configs.h	/^typedef struct http_conf http_conf;$/;"	t	typeref:struct:http_conf
+http_conf	.\include\httpd.h	/^struct http_conf$/;"	s
+http_get	.\src\http.c	/^int http_get(const char *url, char *pipe_buf, uint64_t offset, PedDevice *dev, uint64_t file_section)$/;"	f
+http_parse_url	.\src\http.c	/^static int http_parse_url(const char *url, char *host, char *file, int *port)$/;"	f	file:
+http_startup	.\src\httpd.c	/^int http_startup(uint16_t *port)$/;"	f
+htype	.\include\dhcpd.h	/^    uint8_t  htype;              \/* 1: Hardware addr type (net\/if_types.h) *\/$/;"	m	struct:dhcp_packet
+ia_dst	.\include\ping.h	/^	struct in_addr ia_dst;	 \/\/Internet Address - Destination$/;"	m	struct:tagIPHDR	typeref:struct:tagIPHDR::in_addr
+ia_src	.\include\ping.h	/^	struct in_addr ia_src;	 \/\/Internet Address - Source$/;"	m	struct:tagIPHDR	typeref:struct:tagIPHDR::in_addr
+icmp_hdr	.\include\ping.h	/^	ICMPHDR icmp_hdr;$/;"	m	struct:echo_request
+id	.\include\ping.h	/^	short id;				\/\/Identification$/;"	m	struct:tagIPHDR
+id	.\include\ping.h	/^	unsigned short id;$/;"	m	struct:tagICMPHDR
+ignore_bootp	.\include\dhcpd.h	/^    int ignore_bootp;$/;"	m	struct:dhcp_conf
+in_cksum	.\src\ping.c	/^unsigned short in_cksum(unsigned short *addr, int len)$/;"	f
+index	.\include\client.h	/^	int index;$/;"	m	struct:client
+index	.\include\dict.h	/^	long index;$/;"	m	struct:dict_iterator
+index	.\include\queue.h	/^	queue_index index[MAX_QUEUESIZE];$/;"	m	struct:__anon9
+index	.\qt_pro\client.h	/^    int index;$/;"	m	struct:client
+index_in_strings	.\src\http.c	/^int index_in_strings(const char *strings, const char *key)$/;"	f
+index_label	.\qt_pro\item.h	/^    QLabel *index_label;$/;"	m	class:Item
+index_label	.\qt_pro\ui_item.h	/^    QLabel *index_label;$/;"	m	class:Ui_Item
+index_list	.\src\list.c	/^list_node *index_list(list *list, long index)$/;"	f
+initDhcp	.\qt_pro\mainwindow.cpp	/^void MainWindow::initDhcp()$/;"	f	class:MainWindow
+init_clients	.\src\client.c	/^int init_clients()$/;"	f
+init_configs	.\src\configs.c	/^void init_configs()$/;"	f
+init_dict	.\src\dict.c	/^int init_dict(dict *d, dict_type *type, void *data_ptr)$/;"	f
+init_logs	.\src\log.c	/^void init_logs()$/;"	f
+init_pipe	.\src\pipe.c	/^int init_pipe()$/;"	f
+init_queue	.\src\queue.c	/^void init_queue(queue *p, unsigned char *buf, unsigned int max_size)$/;"	f
+init_signals	.\src\signals.c	/^void init_signals(void)$/;"	f
+init_tftpd	.\src\tftpd.c	/^int init_tftpd()$/;"	f
+ino	.\include\mmap_cache.h	/^	ino_t ino;$/;"	m	struct:mmap_entry
+insert_node_list	.\src\list.c	/^list *insert_node_list()$/;"	f
+int16_t	.\include\types.h	/^typedef short               int16_t;$/;"	t
+int32_t	.\include\types.h	/^typedef long                int32_t;$/;"	t
+int64_t	.\include\types.h	/^typedef long long           int64_t;$/;"	t
+int8_t	.\include\types.h	/^typedef char                int8_t;$/;"	t
+ip	.\include\client.h	/^    char ip[IPADDR_LEN];$/;"	m	struct:client
+ip	.\include\configs.h	/^    unsigned char ip[32];$/;"	m	struct:netcard_conf
+ip	.\include\configs.h	/^    unsigned char ip[32];$/;"	m	struct:server_conf
+ip	.\include\event.h	/^    uint32_t                ip;         \/\/ ip $/;"	m	struct:event_t
+ip	.\qt_pro\client.h	/^    char ip[IPADDR_LEN];$/;"	m	struct:client
+ip2index	.\src\client.c	/^static int ip2index(char *ip)$/;"	f	file:
+ip2int	.\qt_pro\socket.cpp	/^unsigned int ip2int(char *ip_str)$/;"	f
+ip2int	.\src\socket.c	/^unsigned int ip2int(char *ip_str)$/;"	f
+ip_hdr	.\include\ping.h	/^	IPHDR ip_hdr;$/;"	m	struct:echo_reply
+ip_label	.\qt_pro\item.h	/^    QLabel *ip_label;$/;"	m	class:Item
+ip_label	.\qt_pro\ui_item.h	/^    QLabel *ip_label;$/;"	m	class:Ui_Item
+ip_pool_edit	.\qt_pro\ui_mainwindow.h	/^    QLineEdit *ip_pool_edit;$/;"	m	class:Ui_MainWindow
+ip_pool_label	.\qt_pro\ui_mainwindow.h	/^    QLabel *ip_pool_label;$/;"	m	class:Ui_MainWindow
+ipxe_boot	.\include\dhcpd.h	/^    char ipxe_boot[256];$/;"	m	struct:dhcp_conf
+isIPvalidate	.\qt_pro\mainwindow.cpp	/^bool isIPvalidate(const QString &strIP)$/;"	f
+is_dhcp	.\include\configs.h	/^    char is_dhcp;                   \/\/0 不启动 1 启动$/;"	m	struct:netcard_conf
+is_dhcp	.\include\dhcpd.h	170;"	d
+is_ip_subnet	.\qt_pro\socket.cpp	/^int is_ip_subnet(struct in_addr *p1, struct in_addr *p2, struct in_addr *mask)$/;"	f
+is_ip_subnet	.\src\socket.c	/^int is_ip_subnet(struct in_addr *p1, struct in_addr *p2, struct in_addr *mask)$/;"	f
+ishex	.\src\httpd.c	/^static uint8_t ishex(uint8_t x)$/;"	f	file:
+isright_brace	.\src\inirw.c	/^static int isright_brace(char c )$/;"	f	file:
+iterators	.\include\dict.h	/^	unsigned long iterators;$/;"	m	struct:dict
+join_list	.\src\list.c	/^void join_list()$/;"	f
+key	.\include\dict.h	/^	void *key;$/;"	m	struct:dict_entry
+key	.\src\httpd.c	/^    char                *key;$/;"	m	struct:__anon13	file:
+label	.\qt_pro\ui_mainwindow.h	/^    QLabel *label;$/;"	m	class:Ui_MainWindow
+label_10	.\qt_pro\ui_mainwindow.h	/^    QLabel *label_10;$/;"	m	class:Ui_MainWindow
+label_8	.\qt_pro\ui_mainwindow.h	/^    QLabel *label_8;$/;"	m	class:Ui_MainWindow
+label_9	.\qt_pro\ui_mainwindow.h	/^    QLabel *label_9;$/;"	m	class:Ui_MainWindow
+label_interface	.\qt_pro\ui_mainwindow.h	/^    QLabel *label_interface;$/;"	m	class:Ui_MainWindow
+label_router	.\qt_pro\ui_mainwindow.h	/^    QLabel *label_router;$/;"	m	class:Ui_MainWindow
+last_time	.\include\client.h	/^	time_t last_time;	$/;"	m	struct:client
+last_time	.\qt_pro\client.h	/^    time_t last_time;$/;"	m	struct:client
+last_time	.\src\tftp.c	/^static time_t last_time;$/;"	v	file:
+layoutWidget	.\qt_pro\ui_mainwindow.h	/^    QWidget *layoutWidget;$/;"	m	class:Ui_MainWindow
+layoutWidget1	.\qt_pro\ui_mainwindow.h	/^    QWidget *layoutWidget1;$/;"	m	class:Ui_MainWindow
+layout_left	.\qt_pro\ui_mainwindow.h	/^    QVBoxLayout *layout_left;$/;"	m	class:Ui_MainWindow
+layout_right	.\qt_pro\ui_mainwindow.h	/^    QVBoxLayout *layout_right;$/;"	m	class:Ui_MainWindow
+lease	.\include\dhcpd.h	/^	int lease;$/;"	m	struct:dhcp_conf
+lease_edit	.\qt_pro\ui_mainwindow.h	/^    QLineEdit *lease_edit;$/;"	m	class:Ui_MainWindow
+lease_label	.\qt_pro\ui_mainwindow.h	/^    QLabel *lease_label;$/;"	m	class:Ui_MainWindow
+left_barce	.\src\inirw.c	/^static int left_barce(char c)$/;"	f	file:
+len	.\include\dhcpd.h	/^    char len;$/;"	m	struct:dhcp_option
+len	.\include\list.h	/^	unsigned long len;$/;"	m	struct:list
+len	.\include\mmap_cache.h	/^	size_t len;$/;"	m	struct:mmap_entry
+list	.\include\list.h	/^typedef struct list {$/;"	s
+list	.\include\list.h	/^}list;$/;"	t	typeref:struct:list
+listFirst	.\include\list.h	28;"	d
+listGetDupMethod	.\include\list.h	38;"	d
+listGetFree	.\include\list.h	39;"	d
+listGetMatchMethod	.\include\list.h	40;"	d
+listLast	.\include\list.h	29;"	d
+listLength	.\include\list.h	27;"	d
+listNextNode	.\include\list.h	31;"	d
+listNodeValue	.\include\list.h	32;"	d
+listPrevNode	.\include\list.h	30;"	d
+listSetDupMethod	.\include\list.h	34;"	d
+listSetFreeMethod	.\include\list.h	35;"	d
+listSetMatchMethod	.\include\list.h	36;"	d
+listWidget	.\qt_pro\mainwindow.h	/^    QListWidget *listWidget;$/;"	m	class:MainWindow
+listWidget	.\qt_pro\ui_mainwindow.h	/^    QListWidget *listWidget;$/;"	m	class:Ui_MainWindow
+list_iter	.\include\list.h	/^typedef struct list_iter {$/;"	s
+list_iter	.\include\list.h	/^}list_iter;$/;"	t	typeref:struct:list_iter
+list_node	.\include\list.h	/^typedef struct list_node {$/;"	s
+list_node	.\include\list.h	/^}list_node;$/;"	t	typeref:struct:list_node
+load_ini_file	.\src\inirw.c	/^static int load_ini_file(const char *file, char *buf,int *file_size)$/;"	f	file:
+load_wsa	.\qt_pro\socket.cpp	/^int load_wsa()$/;"	f
+load_wsa	.\src\socket.c	/^int load_wsa()$/;"	f
+local_addr	.\src\dhcpd.c	/^static struct in_addr local_addr;$/;"	v	typeref:struct:in_addr	file:
+local_file_list	.\src\httpd.c	/^static char* local_file_list(char *path)$/;"	f	file:
+local_ip	.\include\dhcpd.h	/^	char local_ip[64];$/;"	m	struct:dhcp_conf
+log_debug	.\src\logger.c	/^void log_debug(const char *fmt, ...)$/;"	f
+log_error	.\src\logger.c	/^void log_error(const char *fmt, ...)$/;"	f
+log_file_name	.\src\logger.c	/^static const char* log_file_name()$/;"	f	file:
+log_info	.\src\logger.c	/^void log_info(const char *fmt, ...)$/;"	f
+log_level_t	.\include\logger.h	/^} log_level_t;$/;"	t	typeref:enum:__anon6
+log_msg	.\src\log.c	/^void log_msg(const char *fmt, ...)$/;"	f
+log_print	.\src\logger.c	/^static void log_print(log_level_t lv, const char *msg)$/;"	f	file:
+log_warn	.\src\logger.c	/^void log_warn(const char *fmt, ...)$/;"	f
+mGlobal	.\qt_pro\global.cpp	/^Global *Global::mGlobal = NULL;$/;"	m	class:Global	file:
+mGlobal	.\qt_pro\global.h	/^    static Global *mGlobal;$/;"	m	class:Global
+m_addr	.\src\dhcpd.c	/^struct m_addr{$/;"	s	file:
+mac	.\include\client.h	/^	unsigned long mac[2];$/;"	m	struct:client
+mac	.\include\configs.h	/^    unsigned char mac[32];$/;"	m	struct:netcard_conf
+mac	.\qt_pro\client.h	/^    unsigned long mac[2];$/;"	m	struct:client
+mac_label	.\qt_pro\item.h	/^    QLabel *mac_label;$/;"	m	class:Item
+mac_label	.\qt_pro\ui_item.h	/^    QLabel *mac_label;$/;"	m	class:Ui_Item
+main	.\qt_pro\main.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	.\src\main.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\src\mmap_cache.c	/^int main(int argc, char *argv[])$/;"	f
+main_ui	.\qt_pro\global.h	/^    MainWindow *main_ui;$/;"	m	class:Global
+major_ver	.\include\configs.h	/^    int major_ver;$/;"	m	struct:configs
+malloc_replace	.\src\path.c	/^char *malloc_replace(char *data, char *rep, char *to, int free_data)  $/;"	f
+mask	.\include\dhcpd.h	/^    char mask[64];$/;"	m	struct:dhcp_conf
+mask_edit	.\qt_pro\ui_mainwindow.h	/^    QLineEdit *mask_edit;$/;"	m	class:Ui_MainWindow
+mask_label	.\qt_pro\ui_mainwindow.h	/^    QLabel *mask_label;$/;"	m	class:Ui_MainWindow
+match	.\include\list.h	/^	int (*match) (void *ptr, void *key);$/;"	m	struct:list
+max	.\include\base.h	110;"	d
+max_connections	.\qt_pro\socket.cpp	/^int max_connections = 0;$/;"	v
+max_connections	.\src\socket.c	/^int max_connections = 0;$/;"	v
+max_size	.\include\queue.h	/^	unsigned int max_size;$/;"	m	struct:__anon9
+maxtimeout	.\include\client.h	/^	unsigned long maxtimeout;$/;"	m	struct:client
+maxtimeout	.\qt_pro\client.h	/^    unsigned long maxtimeout;$/;"	m	struct:client
+menuBar	.\qt_pro\ui_mainwindow.h	/^    QMenuBar *menuBar;$/;"	m	class:Ui_MainWindow
+metaObject	.\qt_pro\debug\moc_global.cpp	/^const QMetaObject *Global::metaObject() const$/;"	f	class:Global
+metaObject	.\qt_pro\debug\moc_item.cpp	/^const QMetaObject *Item::metaObject() const$/;"	f	class:Item
+metaObject	.\qt_pro\debug\moc_mainwindow.cpp	/^const QMetaObject *MainWindow::metaObject() const$/;"	f	class:MainWindow
+metaObject	.\qt_pro\debug\moc_pipethread.cpp	/^const QMetaObject *PipeThread::metaObject() const$/;"	f	class:PipeThread
+method	.\src\httpd.c	/^    char                *method;$/;"	m	struct:__anon14	file:
+min	.\include\base.h	111;"	d
+minor_ver	.\include\configs.h	/^    int minor_ver;$/;"	m	struct:configs
+mmap	.\include\mmap_cache.h	/^	char *mmap;$/;"	m	struct:mmap_entry
+mmap	.\src\mmap_cache.c	/^static void* mmap(HANDLE *handle, void* start,size_t length,int prot,int flags,int fd,off_t offset)$/;"	f	file:
+mmap_entry	.\include\mmap_cache.h	/^struct mmap_entry {$/;"	s
+mmap_list	.\src\mmap_cache.c	/^static struct mmap_entry mmap_list[MMAP_LIST_SIZE];$/;"	v	typeref:struct:mmap_entry	file:
+mmap_list_entries_used	.\src\mmap_cache.c	/^int mmap_list_entries_used = 0;$/;"	v
+mmap_list_hash_bounces	.\src\mmap_cache.c	/^int mmap_list_hash_bounces = 0;$/;"	v
+mmap_list_total_requests	.\src\mmap_cache.c	/^int mmap_list_total_requests = 0;$/;"	v
+modified_since	.\src\tools.c	/^int modified_since(time_t *mtime, char *if_modified_since)$/;"	f
+modifiyConfig	.\qt_pro\mainwindow.cpp	/^void MainWindow::modifiyConfig()$/;"	f	class:MainWindow
+month_tab	.\src\log.c	/^const char month_tab[48] =$/;"	v
+move_next_line	.\src\httpd.c	468;"	d	file:
+msg_out	.\qt_pro\external.cpp	/^void msg_out(QtMsgType type, const char *msg)$/;"	f
+munmap	.\src\mmap_cache.c	/^static int munmap(void *start, size_t length)$/;"	f	file:
+name	.\include\command.h	/^	char *name;$/;"	m	struct:command
+name	.\include\configs.h	/^    char name[32];$/;"	m	struct:netcard_conf
+netcard	.\include\configs.h	/^    netcard_conf netcard;$/;"	m	struct:configs
+netcard_conf	.\include\configs.h	/^struct netcard_conf$/;"	s
+netcard_conf	.\include\configs.h	/^typedef struct netcard_conf netcard_conf;$/;"	t	typeref:struct:netcard_conf
+netmask	.\include\configs.h	/^    unsigned char netmask[32];$/;"	m	struct:netcard_conf
+network_accept	.\src\network.c	/^ret_code_t network_accept(SOCKET sfd, struct in_addr* addr, SOCKET *cfd)$/;"	f
+network_init	.\src\network.c	/^ret_code_t network_init()$/;"	f
+network_listen	.\src\network.c	/^ret_code_t network_listen(uint16_t *port, SOCKET *fd)$/;"	f
+network_read	.\src\network.c	/^ret_code_t network_read(SOCKET fd, char *buf, int32_t size)$/;"	f
+network_unint	.\src\network.c	/^ret_code_t network_unint()$/;"	f
+network_write	.\src\network.c	/^ret_code_t network_write(SOCKET fd, void *buf, uint32_t size)$/;"	f
+new_dict	.\src\dict.c	/^dict *new_dict(dict_type *type, void *data_ptr)$/;"	f
+new_list	.\src\list.c	/^list *new_list(void)$/;"	f
+newline	.\src\inirw.c	/^static int newline(char c)$/;"	f	file:
+next	.\include\dict.h	/^	struct dict_entry *next;$/;"	m	struct:dict_entry	typeref:struct:dict_entry::dict_entry
+next	.\include\list.h	/^	struct list_node *next;$/;"	m	struct:list_node	typeref:struct:list_node::list_node
+next_entry	.\include\dict.h	/^	dict_entry *entry, *next_entry;$/;"	m	struct:dict_iterator
+next_header_line	.\src\httpd.c	469;"	d	file:
+next_header_word	.\src\httpd.c	470;"	d	file:
+next_list	.\src\list.c	/^list_node *next_list()$/;"	f
+normal_replace	.\src\path.c	/^void normal_replace(char *data, char *rep, char *to)  $/;"	f
+object	.\include\command.h	/^	void *object;	$/;"	m	struct:command
+offset	.\include\event.h	/^    uint32_t                offset;$/;"	m	struct:__anon5
+offset	.\include\queue.h	/^	unsigned int offset;$/;"	m	struct:__anon9
+onUpdateTime	.\qt_pro\mainwindow.cpp	/^void MainWindow::onUpdateTime()$/;"	f	class:MainWindow
+on_cb_interface_currentIndexChanged	.\qt_pro\mainwindow.cpp	/^void MainWindow::on_cb_interface_currentIndexChanged(int index)$/;"	f	class:MainWindow
+on_run_btn_clicked	.\qt_pro\mainwindow.cpp	/^void MainWindow::on_run_btn_clicked()$/;"	f	class:MainWindow
+op	.\include\dhcpd.h	/^    uint8_t  op;                 \/* 0: Message opcode\/type *\/$/;"	m	struct:dhcp_packet
+openAct	.\qt_pro\mainwindow.h	/^    QAction *openAct;$/;"	m	class:MainWindow
+openFile	.\qt_pro\mainwindow.cpp	/^void MainWindow::openFile()$/;"	f	class:MainWindow
+opt	.\include\dhcpd.h	/^    unsigned opt;$/;"	m	struct:dhcp_option
+opt120	.\include\dhcpd.h	/^    char opt120[64];$/;"	m	struct:dhcp_conf
+opt42	.\include\dhcpd.h	/^    char opt42[64];$/;"	m	struct:dhcp_conf
+options	.\include\dhcpd.h	/^    unsigned char options [DHCP_OPTION_LEN];$/;"	m	struct:dhcp_packet
+param	.\include\event.h	/^    void                   *param;      \/\/ param$/;"	m	struct:event_t
+parse_boundary	.\src\httpd.c	/^static int parse_boundary(event_t *ev, char *data, int size, char **ptr)$/;"	f	file:
+parse_file	.\src\inirw.c	/^static int parse_file(const char *section, const char *key, const char *buf,int *sec_s,int *sec_e,$/;"	f	file:
+parse_options	.\src\main.c	/^void parse_options(int argc, char *argv[])$/;"	f
+parse_request_header	.\src\httpd.c	/^static int parse_request_header(char *data, request_header_t *header)$/;"	f	file:
+ping_range	.\src\ping.c	/^void ping_range(char *start_ip, unsigned short count)$/;"	f
+ping_recv	.\src\ping.c	/^void *ping_recv(void *param)$/;"	f
+pipe	.\qt_pro\global.h	/^    PipeThread *pipe;$/;"	m	class:Global
+pipe_event	.\src\pipe.c	/^int pipe_event[2] = {0};$/;"	v
+pipe_qt	.\qt_pro\pipethread.h	/^    int pipe_qt[2];$/;"	m	class:PipeThread
+pipe_tcp	.\src\pipe.c	/^int pipe_tcp[2] = {0};$/;"	v
+pipe_udp	.\src\pipe.c	/^int pipe_udp[2] = {0};$/;"	v
+pipe_ui	.\src\pipe.c	/^int pipe_ui[2] = {0};$/;"	v
+pool_ip	.\include\dhcpd.h	/^    char pool_ip[64];$/;"	m	struct:dhcp_conf
+pool_size	.\include\dhcpd.h	/^    int pool_size;$/;"	m	struct:dhcp_conf
+pool_size_edit	.\qt_pro\ui_mainwindow.h	/^    QLineEdit *pool_size_edit;$/;"	m	class:Ui_MainWindow
+pool_size_label	.\qt_pro\ui_mainwindow.h	/^    QLabel *pool_size_label;$/;"	m	class:Ui_MainWindow
+port	.\include\configs.h	/^    int port;$/;"	m	struct:http_conf
+port	.\include\configs.h	/^    unsigned int port;$/;"	m	struct:server_conf
+port	.\include\httpd.h	/^	int port;$/;"	m	struct:http_conf
+prev	.\include\list.h	/^	struct list_node *prev;$/;"	m	struct:list_node	typeref:struct:list_node::list_node
+privdata	.\include\dict.h	/^	void *privdata;$/;"	m	struct:dict
+process_dhcp_message	.\src\dhcpd.c	/^int process_dhcp_message(struct dhcp_packet *pkt, int *p_size)$/;"	f
+process_pipe	.\qt_pro\pipethread.cpp	/^void PipeThread::process_pipe(unsigned char *msg, int len)$/;"	f	class:PipeThread
+program_name	.\src\main.c	/^const char program_name[] = "PXE";$/;"	v
+progress_bar	.\qt_pro\item.h	/^    QProgressBar *progress_bar;$/;"	m	class:Item
+protocol	.\include\ping.h	/^	unsigned char protocol;	\/\/Protocol$/;"	m	struct:tagIPHDR
+protocol	.\src\http.c	/^static char protocol[] = "HTTP";$/;"	v	file:
+pthread_dhcpd	.\src\main.c	/^static pthread_t pthread_httpd, pthread_tftpd, pthread_dhcpd, pthread_ui;$/;"	v	file:
+pthread_httpd	.\src\main.c	/^static pthread_t pthread_httpd, pthread_tftpd, pthread_dhcpd, pthread_ui;$/;"	v	file:
+pthread_tftp	.\include\client.h	/^	pthread_t pthread_tftp;$/;"	m	struct:client
+pthread_tftp	.\qt_pro\client.h	/^    pthread_t pthread_tftp;$/;"	m	struct:client
+pthread_tftpd	.\src\main.c	/^static pthread_t pthread_httpd, pthread_tftpd, pthread_dhcpd, pthread_ui;$/;"	v	file:
+pthread_ui	.\src\main.c	/^static pthread_t pthread_httpd, pthread_tftpd, pthread_dhcpd, pthread_ui;$/;"	v	file:
+pxe_boot	.\include\dhcpd.h	/^    char pxe_boot[256];$/;"	m	struct:dhcp_conf
+qCleanupResources_img	.\qt_pro\debug\qrc_img.cpp	/^int QT_MANGLE_NAMESPACE(qCleanupResources_img)()$/;"	f
+qInitResources_img	.\qt_pro\debug\qrc_img.cpp	/^int QT_MANGLE_NAMESPACE(qInitResources_img)()$/;"	f
+qt_meta_data_Global	.\qt_pro\debug\moc_global.cpp	/^static const uint qt_meta_data_Global[] = {$/;"	v	file:
+qt_meta_data_Item	.\qt_pro\debug\moc_item.cpp	/^static const uint qt_meta_data_Item[] = {$/;"	v	file:
+qt_meta_data_MainWindow	.\qt_pro\debug\moc_mainwindow.cpp	/^static const uint qt_meta_data_MainWindow[] = {$/;"	v	file:
+qt_meta_data_PipeThread	.\qt_pro\debug\moc_pipethread.cpp	/^static const uint qt_meta_data_PipeThread[] = {$/;"	v	file:
+qt_meta_stringdata_Global	.\qt_pro\debug\moc_global.cpp	/^static const char qt_meta_stringdata_Global[] = {$/;"	v	file:
+qt_meta_stringdata_Item	.\qt_pro\debug\moc_item.cpp	/^static const char qt_meta_stringdata_Item[] = {$/;"	v	file:
+qt_meta_stringdata_MainWindow	.\qt_pro\debug\moc_mainwindow.cpp	/^static const char qt_meta_stringdata_MainWindow[] = {$/;"	v	file:
+qt_meta_stringdata_PipeThread	.\qt_pro\debug\moc_pipethread.cpp	/^static const char qt_meta_stringdata_PipeThread[] = {$/;"	v	file:
+qt_metacall	.\qt_pro\debug\moc_global.cpp	/^int Global::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Global
+qt_metacall	.\qt_pro\debug\moc_item.cpp	/^int Item::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Item
+qt_metacall	.\qt_pro\debug\moc_mainwindow.cpp	/^int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow
+qt_metacall	.\qt_pro\debug\moc_pipethread.cpp	/^int PipeThread::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:PipeThread
+qt_metacast	.\qt_pro\debug\moc_global.cpp	/^void *Global::qt_metacast(const char *_clname)$/;"	f	class:Global
+qt_metacast	.\qt_pro\debug\moc_item.cpp	/^void *Item::qt_metacast(const char *_clname)$/;"	f	class:Item
+qt_metacast	.\qt_pro\debug\moc_mainwindow.cpp	/^void *MainWindow::qt_metacast(const char *_clname)$/;"	f	class:MainWindow
+qt_metacast	.\qt_pro\debug\moc_pipethread.cpp	/^void *PipeThread::qt_metacast(const char *_clname)$/;"	f	class:PipeThread
+qt_resource_data	.\qt_pro\debug\qrc_img.cpp	/^static const unsigned char qt_resource_data[] = {$/;"	v	file:
+qt_resource_name	.\qt_pro\debug\qrc_img.cpp	/^static const unsigned char qt_resource_name[] = {$/;"	v	file:
+qt_resource_struct	.\qt_pro\debug\qrc_img.cpp	/^static const unsigned char qt_resource_struct[] = {$/;"	v	file:
+qt_static_metacall	.\qt_pro\debug\moc_global.cpp	/^void Global::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Global
+qt_static_metacall	.\qt_pro\debug\moc_item.cpp	/^void Item::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Item
+qt_static_metacall	.\qt_pro\debug\moc_mainwindow.cpp	/^void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow
+qt_static_metacall	.\qt_pro\debug\moc_pipethread.cpp	/^void PipeThread::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:PipeThread
+queue	.\include\queue.h	/^}queue;$/;"	t	typeref:struct:__anon9
+queue_index	.\include\queue.h	/^}queue_index;$/;"	t	typeref:struct:__anon8
+rb_augment_erase_begin	.\src\rbtree.c	/^struct rb_node *rb_augment_erase_begin(struct rb_node *node)$/;"	f
+rb_augment_erase_end	.\src\rbtree.c	/^void rb_augment_erase_end(struct rb_node *node, rb_augment_f func, void *data)$/;"	f
+rb_augment_f	.\include\rbtree.h	/^typedef void (*rb_augment_f)(struct rb_node *node, void *data);$/;"	t
+rb_augment_insert	.\src\rbtree.c	/^void rb_augment_insert(struct rb_node *node, rb_augment_f func, void *data)$/;"	f
+rb_augment_path	.\src\rbtree.c	/^static void rb_augment_path(struct rb_node *node, rb_augment_f func, void *data)$/;"	f	file:
+rb_color	.\include\rbtree.h	118;"	d
+rb_entry	.\include\rbtree.h	140;"	d
+rb_erase	.\src\rbtree.c	/^void rb_erase(struct rb_node *node, struct rb_root *root)$/;"	f
+rb_first	.\src\rbtree.c	/^struct rb_node *rb_first(const struct rb_root *root)$/;"	f
+rb_init_node	.\include\rbtree.h	/^static inline void rb_init_node(struct rb_node *rb)$/;"	f
+rb_insert_color	.\src\rbtree.c	/^void rb_insert_color(struct rb_node *node, struct rb_root *root)$/;"	f
+rb_is_black	.\include\rbtree.h	120;"	d
+rb_is_red	.\include\rbtree.h	119;"	d
+rb_last	.\src\rbtree.c	/^struct rb_node *rb_last(const struct rb_root *root)$/;"	f
+rb_left	.\include\rbtree.h	/^    struct rb_node *rb_left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_link_node	.\include\rbtree.h	/^static inline void rb_link_node(struct rb_node * node, struct rb_node * parent,$/;"	f
+rb_next	.\src\rbtree.c	/^struct rb_node *rb_next(const struct rb_node *node)$/;"	f
+rb_node	.\include\rbtree.h	/^    struct rb_node *rb_node;$/;"	m	struct:rb_root	typeref:struct:rb_root::rb_node
+rb_node	.\include\rbtree.h	/^struct rb_node$/;"	s
+rb_parent	.\include\rbtree.h	117;"	d
+rb_parent_color	.\include\rbtree.h	/^    unsigned long  rb_parent_color;$/;"	m	struct:rb_node
+rb_prev	.\src\rbtree.c	/^struct rb_node *rb_prev(const struct rb_node *node)$/;"	f
+rb_replace_node	.\src\rbtree.c	/^void rb_replace_node(struct rb_node *victim, struct rb_node *new,$/;"	f
+rb_right	.\include\rbtree.h	/^    struct rb_node *rb_right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_root	.\include\rbtree.h	/^struct rb_root$/;"	s
+rb_set_black	.\include\rbtree.h	122;"	d
+rb_set_color	.\include\rbtree.h	/^static inline void rb_set_color(struct rb_node *rb, int color)$/;"	f
+rb_set_parent	.\include\rbtree.h	/^static inline void rb_set_parent(struct rb_node *rb, struct rb_node *p)$/;"	f
+rb_set_red	.\include\rbtree.h	121;"	d
+rbnode_del_no_free	.\src\event.c	/^static int rbnode_del_no_free(struct rbnode_t *n)$/;"	f	file:
+rbnode_t	.\src\event.c	/^struct rbnode_t {$/;"	s	file:
+read_callback	.\src\httpd.c	/^static void read_callback(event_t *ev)$/;"	f	file:
+read_msg_order	.\qt_pro\pipethread.cpp	/^unsigned short read_msg_order(unsigned char * buf)$/;"	f
+read_profile_int	.\src\inirw.c	/^int read_profile_int( const char *section, const char *key,int default_value,$/;"	f
+read_profile_string	.\src\inirw.c	/^int read_profile_string( const char *section, const char *key,char *value,$/;"	f
+read_request_boundary	.\src\httpd.c	/^static void read_request_boundary(event_t *ev)$/;"	f	file:
+read_request_header	.\src\httpd.c	/^static int read_request_header(event_t *ev, char **buf, int *size)$/;"	f	file:
+rear	.\include\queue.h	/^	unsigned int rear;$/;"	m	struct:__anon9
+recv_msg	.\qt_pro\socket.cpp	/^int recv_msg(const int fd, char *buf, const int len)$/;"	f
+recv_msg	.\src\socket.c	/^int recv_msg(const int fd, char *buf, const int len)$/;"	f
+rehash_dict	.\src\dict.c	/^int rehash_dict(dict *d, int n)$/;"	f
+rehash_milliseconds_dict	.\src\dict.c	/^int rehash_milliseconds_dict()$/;"	f
+rehash_step_dict	.\src\dict.c	/^static void rehash_step_dict()$/;"	f	file:
+rehashidx	.\include\dict.h	/^	long rehashidx;$/;"	m	struct:dict
+release_event	.\src\httpd.c	/^static void release_event(event_t *ev)$/;"	f	file:
+release_event_data	.\src\httpd.c	/^static void release_event_data(event_t *ev)$/;"	f	file:
+release_iterator	.\src\list.c	/^void release_iterator(list_iter *iter)$/;"	f
+release_list	.\src\list.c	/^void release_list(list *list)$/;"	f
+release_mmap	.\src\mmap_cache.c	/^void release_mmap(struct mmap_entry *e)$/;"	f
+release_rbnode	.\src\event.c	/^static void release_rbnode(struct rbnode_t *n)$/;"	f	file:
+release_rbtree	.\src\event.c	/^static void release_rbtree(struct rbtree_t *t)$/;"	f	file:
+release_request_header	.\src\httpd.c	/^static void release_request_header(request_header_t *header)$/;"	f	file:
+remove_file	.\src\utils.c	/^int remove_file(char *file_name)$/;"	f
+reponse_content_type	.\src\httpd.c	/^static const char *reponse_content_type(char *file_name)$/;"	f	file:
+req_flush	.\src\response.c	/^int req_flush(request *req)$/;"	f
+req_head	.\qt_pro\pipethread.cpp	/^}req_head;$/;"	t	typeref:struct:_req_head	file:
+req_write	.\src\response.c	/^int req_write(request *req, char *msg)$/;"	f
+request_fields_t	.\src\httpd.c	/^} request_fields_t;$/;"	t	typeref:struct:__anon13	file:
+request_header_t	.\src\httpd.c	/^} request_header_t;$/;"	t	typeref:struct:__anon14	file:
+reset_dict	.\src\dict.c	/^static reset_dict(dictht *ht)$/;"	f	file:
+reset_filename_from_formdata	.\src\httpd.c	/^static int reset_filename_from_formdata(event_t *ev, char **formdata, int size)$/;"	f	file:
+resize_dict	.\src\dict.c	/^int resize_dict(dict *d)$/;"	f
+response_body_format	.\src\httpd.c	/^static const char *response_body_format()$/;"	f	file:
+response_header_format	.\src\httpd.c	/^static const char *response_header_format()$/;"	f	file:
+response_home_page	.\src\httpd.c	/^static void response_home_page(event_t *ev, char *path)$/;"	f	file:
+response_http_400_page	.\src\httpd.c	/^static void response_http_400_page(event_t *ev)$/;"	f	file:
+response_http_404_page	.\src\httpd.c	/^static void response_http_404_page(event_t *ev)$/;"	f	file:
+response_http_500_page	.\src\httpd.c	/^static void response_http_500_page(event_t *ev)$/;"	f	file:
+response_http_501_page	.\src\httpd.c	/^static void response_http_501_page(event_t *ev)$/;"	f	file:
+response_send_file_page	.\src\httpd.c	/^static void response_send_file_page(event_t *ev, char *file_name)$/;"	f	file:
+response_upload_page	.\src\httpd.c	/^static void response_upload_page(event_t *ev, int result)$/;"	f	file:
+restartAct	.\qt_pro\mainwindow.h	/^    QAction *restartAct;$/;"	m	class:MainWindow
+ret_code_t	.\include\types.h	/^} ret_code_t;$/;"	t	typeref:enum:__anon12
+retranslateUi	.\qt_pro\ui_item.h	/^    void retranslateUi(QWidget *Item)$/;"	f	class:Ui_Item
+retranslateUi	.\qt_pro\ui_mainwindow.h	/^    void retranslateUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
+retrieve_file_data	.\src\http.c	/^static int retrieve_file_data(FILE *fp, char *pipe_buf, PedDevice *dev, uint64_t file_section)$/;"	f	file:
+rewind_list	.\src\list.c	/^void rewind_list()$/;"	f
+rewind_tail_list	.\src\list.c	/^void rewind_tail_list()$/;"	f
+rewrite_access	.\src\tftpd.c	/^char *rewrite_access(char *in_filename, int mode)$/;"	f
+rexmtval	.\include\client.h	/^	unsigned long rexmtval;$/;"	m	struct:client
+rexmtval	.\qt_pro\client.h	/^    unsigned long rexmtval;$/;"	m	struct:client
+root_path	.\src\utils.c	/^char* root_path()$/;"	f
+router_edit	.\qt_pro\ui_mainwindow.h	/^    QLineEdit *router_edit;$/;"	m	class:Ui_MainWindow
+router_label	.\qt_pro\ui_mainwindow.h	/^    QLabel *router_label;$/;"	m	class:Ui_MainWindow
+run	.\qt_pro\pipethread.cpp	/^void PipeThread::run()$/;"	f	class:PipeThread
+run_btn	.\qt_pro\ui_mainwindow.h	/^    QPushButton *run_btn;$/;"	m	class:Ui_MainWindow
+run_flag	.\qt_pro\mainwindow.h	/^    int run_flag;$/;"	m	class:MainWindow
+run_flag	.\qt_pro\pipethread.h	/^    int run_flag;$/;"	m	class:PipeThread
+s64	.\include\dict.h	/^		int64_t s64;$/;"	m	union:dict_entry::__anon2
+safe	.\include\dict.h	/^	int table, safe;$/;"	m	struct:dict_iterator
+safe_poll	.\src\tftp.c	/^int safe_poll(struct pollfd *ufds, nfds_t nfds, int timeout)$/;"	f
+sanitize_string	.\src\http.c	/^static char *sanitize_string(char *s)$/;"	f	file:
+saveAct	.\qt_pro\mainwindow.h	/^    QAction *saveAct;$/;"	m	class:MainWindow
+saveAs	.\qt_pro\mainwindow.cpp	/^bool MainWindow::saveAs()$/;"	f	class:MainWindow
+saveAsAct	.\qt_pro\mainwindow.h	/^    QAction *saveAsAct;$/;"	m	class:MainWindow
+save_configs	.\src\configs.c	/^int save_configs()$/;"	f
+scan_for_leases	.\src\dhcpd.c	/^static int scan_for_leases = 1;$/;"	v	file:
+search_key_list	.\src\list.c	/^list_node *search_key_list()$/;"	f
+secs	.\include\dhcpd.h	/^    uint16_t secs;               \/* 8: Seconds since client started looking *\/$/;"	m	struct:dhcp_packet
+send_arp	.\src\ping.c	/^int send_arp(struct in_addr *in, unsigned long *mac)$/;"	f
+send_msg	.\qt_pro\socket.cpp	/^int send_msg(const int fd, const char *buf, const int len)$/;"	f
+send_msg	.\src\socket.c	/^int send_msg(const int fd, const char *buf, const int len)$/;"	f
+send_pipe	.\qt_pro\pipethread.cpp	/^int PipeThread::send_pipe(char *buf, short cmd, int size)$/;"	f	class:PipeThread
+send_r_request_ok	.\src\response.c	/^void send_r_request_ok(request *req)$/;"	f
+send_response	.\src\httpd.c	/^static void send_response(event_t *ev, char *title, char *status)$/;"	f	file:
+seq	.\include\ping.h	/^	unsigned short seq;$/;"	m	struct:tagICMPHDR
+server	.\include\configs.h	/^    server_conf server;$/;"	m	struct:configs
+server	.\src\http.c	/^static char *server = NULL, *user = NULL;$/;"	v	file:
+server_conf	.\include\configs.h	/^struct server_conf {$/;"	s
+server_conf	.\include\configs.h	/^typedef struct server_conf server_conf;$/;"	t	typeref:struct:server_conf
+server_edit	.\qt_pro\ui_mainwindow.h	/^    QLineEdit *server_edit;$/;"	m	class:Ui_MainWindow
+service	.\include\dhcpd.h	/^    int service;$/;"	m	struct:dhcp_option
+setClients	.\qt_pro\global.cpp	/^void Global::setClients(struct client **clients)$/;"	f	class:Global
+setMainWindow	.\qt_pro\global.cpp	/^void Global::setMainWindow(MainWindow *w)$/;"	f	class:Global
+setPipe	.\qt_pro\global.cpp	/^void Global::setPipe(int fd[2])$/;"	f	class:Global
+set_alarm	.\src\alarm.c	/^void set_alarm(void)$/;"	f
+set_client	.\src\client.c	/^void set_client()$/;"	f
+set_hash_function_seed_dict	.\src\dict.c	/^void set_hash_function_seed_dict(uint8_t *seed)$/;"	f
+set_request_head	.\qt_pro\pipethread.cpp	/^void set_request_head(char *buf, char encrypt_flag, short cmd, int data_size)$/;"	f
+setupUi	.\qt_pro\ui_item.h	/^    void setupUi(QWidget *Item)$/;"	f	class:Ui_Item
+setupUi	.\qt_pro\ui_mainwindow.h	/^    void setupUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
+siaddr	.\include\dhcpd.h	/^    struct in_addr siaddr;        \/* 18: IP address of next server to talk to *\/$/;"	m	struct:dhcp_packet	typeref:struct:dhcp_packet::in_addr
+sig_quit_listen	.\src\signals.c	/^static void sig_quit_listen(int e)$/;"	f	file:
+sigalrm	.\src\signals.c	/^void sigalrm(int dummy)$/;"	f
+sigalrm_run	.\src\signals.c	/^void sigalrm_run(void)$/;"	f
+sigbus	.\src\signals.c	/^void sigbus(int dummy)$/;"	f
+sigchld	.\src\signals.c	/^void sigchld(int  dummy)$/;"	f
+sigchld_run	.\src\signals.c	/^void sigchld_run(void)$/;"	f
+sighup	.\src\signals.c	/^void sighup(int dummy)$/;"	f
+sighup_run	.\src\signals.c	/^void sighup_run(void)$/;"	f
+sigint	.\src\signals.c	/^void sigint(int dummy)$/;"	f
+sigsegv	.\src\signals.c	/^void sigsegv(int dummy)$/;"	f
+sigterm	.\src\signals.c	/^void sigterm(int dummy)$/;"	f
+sigterm_stage1_run	.\src\signals.c	/^void sigterm_stage1_run(int server_s)$/;"	f
+sigterm_stage2_run	.\src\signals.c	/^void sigterm_stage2_run()$/;"	f
+size	.\include\dict.h	/^	unsigned long size;$/;"	m	struct:dictht
+size	.\include\event.h	/^    uint32_t                size;$/;"	m	struct:__anon5
+size	.\include\queue.h	/^	unsigned int size;$/;"	m	struct:__anon8
+sizemask	.\include\dict.h	/^	unsigned long sizemask;$/;"	m	struct:dictht
+sizeof_tab	.\include\dhcpd.h	171;"	d
+skip_non_whitespace	.\src\http.c	/^char *skip_non_whitespace(const char *s)$/;"	f
+skip_whitespace	.\src\http.c	/^char *skip_whitespace(const char *s)$/;"	f
+sname	.\include\dhcpd.h	/^    char sname [DHCP_SNAME_LEN];  \/* 40: Server name *\/$/;"	m	struct:dhcp_packet
+socket_fd	.\src\tftp.c	131;"	d	file:
+splitter	.\qt_pro\ui_mainwindow.h	/^    QSplitter *splitter;$/;"	m	class:Ui_MainWindow
+startAct	.\qt_pro\mainwindow.h	/^    QAction *startAct;$/;"	m	class:MainWindow
+staticMetaObject	.\qt_pro\debug\moc_global.cpp	/^const QMetaObject Global::staticMetaObject = {$/;"	m	class:Global	file:
+staticMetaObject	.\qt_pro\debug\moc_item.cpp	/^const QMetaObject Item::staticMetaObject = {$/;"	m	class:Item	file:
+staticMetaObject	.\qt_pro\debug\moc_mainwindow.cpp	/^const QMetaObject MainWindow::staticMetaObject = {$/;"	m	class:MainWindow	file:
+staticMetaObject	.\qt_pro\debug\moc_pipethread.cpp	/^const QMetaObject PipeThread::staticMetaObject = {$/;"	m	class:PipeThread	file:
+staticMetaObjectExtraData	.\qt_pro\debug\moc_global.cpp	/^const QMetaObjectExtraData Global::staticMetaObjectExtraData = {$/;"	m	class:Global	file:
+staticMetaObjectExtraData	.\qt_pro\debug\moc_item.cpp	/^const QMetaObjectExtraData Item::staticMetaObjectExtraData = {$/;"	m	class:Item	file:
+staticMetaObjectExtraData	.\qt_pro\debug\moc_mainwindow.cpp	/^const QMetaObjectExtraData MainWindow::staticMetaObjectExtraData = {$/;"	m	class:MainWindow	file:
+staticMetaObjectExtraData	.\qt_pro\debug\moc_pipethread.cpp	/^const QMetaObjectExtraData PipeThread::staticMetaObjectExtraData = {$/;"	m	class:PipeThread	file:
+statu_label	.\qt_pro\ui_mainwindow.h	/^    QLabel *statu_label;$/;"	m	class:Ui_MainWindow
+status	.\include\event.h	/^    uint8_t                 status;     \/\/ event_status_t$/;"	m	struct:event_t
+stopAct	.\qt_pro\mainwindow.h	/^    QAction *stopAct;$/;"	m	class:MainWindow
+strchrnul	.\src\http.c	/^static char *strchrnul(const char *s, int c)$/;"	f	file:
+strrepl	.\src\path.c	/^char * strrepl(const char * src, char * dst, size_t dst_size, const char * search, const char * replace_with) {$/;"	f
+syn	.\qt_pro\pipethread.cpp	/^    unsigned char syn;$/;"	m	struct:_req_head	file:
+t	.\include\dhcpd.h	/^    }t[10];$/;"	m	struct:dhcp_conf	typeref:struct:dhcp_conf::__anon1
+table	.\include\dict.h	/^	dict_entry **table;$/;"	m	struct:dictht
+table	.\include\dict.h	/^	int table, safe;$/;"	m	struct:dict_iterator
+tagICMPHDR	.\include\ping.h	/^typedef struct tagICMPHDR$/;"	s
+tagIPHDR	.\include\ping.h	/^typedef struct tagIPHDR$/;"	s
+tail	.\include\list.h	/^	list_node *tail;$/;"	m	struct:list
+tftp	.\include\configs.h	/^	struct tftp_conf tftp;$/;"	m	struct:configs	typeref:struct:configs::tftp_conf
+tftp_blksize_check	.\src\tftp.c	/^static int tftp_blksize_check(const char *blksize_str, int maxsize)$/;"	f	file:
+tftp_conf	.\include\configs.h	/^typedef struct tftp_conf tftp_conf;$/;"	t	typeref:struct:tftp_conf
+tftp_conf	.\include\tftpd.h	/^struct tftp_conf$/;"	s
+tftp_get	.\src\tftp.c	/^int tftp_get(char *server_ip, char *remote_file, char *local_file, char *pipe_buf, int type)$/;"	f
+tftp_get_option	.\src\tftp.c	/^static char *tftp_get_option(const char *option, char *buf, int len)$/;"	f	file:
+tftp_get_option	.\src\tftpd.c	/^static char *tftp_get_option(const char *option, char *buf, int len)$/;"	f	file:
+tftp_ip	.\include\dhcpd.h	/^	char tftp_ip[64];$/;"	m	struct:dhcp_conf
+tftp_option_reply	.\src\tftpd.c	/^int tftp_option_reply(struct client *cli)$/;"	f
+tftp_progress_done	.\src\tftp.c	/^static void tftp_progress_done(void)$/;"	f	file:
+tftp_progress_init	.\src\tftp.c	/^static void tftp_progress_init(void)$/;"	f	file:
+tftp_progress_update	.\src\tftp.c	/^static void tftp_progress_update(uint64_t file_size, uint64_t download_size, char *pipe_buf, int type)$/;"	f	file:
+tftp_send_error	.\src\tftpd.c	/^void tftp_send_error(struct client *cli, uint16_t code, char *err_msg)$/;"	f
+tftp_sendfile	.\src\tftpd.c	/^int tftp_sendfile(struct client *cli)$/;"	f
+tftphdr	.\include\tftpd.h	/^struct    tftphdr {$/;"	s
+th_block	.\include\tftpd.h	47;"	d
+th_code	.\include\tftpd.h	48;"	d
+th_data	.\include\tftpd.h	/^  char    th_data[2];     \/* data or error string *\/$/;"	m	struct:tftphdr
+th_msg	.\include\tftpd.h	50;"	d
+th_opcode	.\include\tftpd.h	/^  short   th_opcode;      \/* packet type *\/$/;"	m	struct:tftphdr
+th_stuff	.\include\tftpd.h	49;"	d
+th_u	.\include\tftpd.h	/^  } th_u;$/;"	m	struct:tftphdr	typeref:union:tftphdr::__anon11
+thread_dhcpd	.\src\dhcpd.c	/^void *thread_dhcpd(void *param)$/;"	f
+thread_httpd	.\src\httpd.c	/^void *thread_httpd(void *param)$/;"	f
+thread_tftp	.\src\tftpd.c	/^void *thread_tftp(void *param)$/;"	f
+thread_tftpd	.\src\tftpd.c	/^void *thread_tftpd(void *param)$/;"	f
+thread_ui	.\src\ui.c	/^void *thread_ui(void *param)$/;"	f
+time	.\include\ping.h	/^	unsigned int time;$/;"	m	struct:echo_request
+timeout	.\include\client.h	/^	unsigned long timeout;$/;"	m	struct:client
+timeout	.\include\tftpd.h	/^	unsigned int timeout;$/;"	m	struct:tftp_conf
+timeout	.\qt_pro\client.h	/^    unsigned long timeout;$/;"	m	struct:client
+timer	.\qt_pro\global.h	/^    QTimer *timer;$/;"	m	class:Global
+timer	.\qt_pro\mainwindow.h	/^    QTimer *timer;$/;"	m	class:MainWindow
+timetoa	.\qt_pro\socket.cpp	/^char *timetoa(time_t t)$/;"	f
+timetoa	.\src\socket.c	/^char *timetoa(time_t t)$/;"	f
+to_upper	.\src\tools.c	/^char *to_upper(char *str)$/;"	f
+tolen	.\include\ping.h	/^	short tolen;			\/\/Total Length$/;"	m	struct:tagIPHDR
+toolMenu	.\qt_pro\mainwindow.h	/^    QMenu *toolMenu;$/;"	m	class:MainWindow
+tos	.\include\ping.h	/^	unsigned char tos;		\/\/Type of service$/;"	m	struct:tagIPHDR
+total	.\include\event.h	/^    uint32_t                total;$/;"	m	struct:__anon5
+translate_uri	.\src\uri.c	/^int translate_uri(request *req)$/;"	f
+tsize	.\include\client.h	/^	off_t tsize;$/;"	m	struct:client
+tsize	.\qt_pro\client.h	/^    off_t tsize;$/;"	m	struct:client
+ttl	.\include\ping.h	/^	unsigned char ttl;		\/\/ Time To Live$/;"	m	struct:tagIPHDR
+tu_block	.\include\tftpd.h	/^          short   tu_block;   \/* block # *\/$/;"	m	union:tftphdr::__anon11
+tu_code	.\include\tftpd.h	/^          short   tu_code;    \/* error code *\/$/;"	m	union:tftphdr::__anon11
+tu_stuff	.\include\tftpd.h	/^          char    tu_stuff[1];    \/* request packet stuff *\/$/;"	m	union:tftphdr::__anon11
+type	.\include\command.h	/^	int type;$/;"	m	struct:command
+type	.\include\configs.h	/^    int type;$/;"	m	struct:configs
+type	.\include\dhcpd.h	/^    int type;$/;"	m	struct:dhcp_type
+type	.\include\dict.h	/^	dict_type *type;$/;"	m	struct:dict
+type	.\include\event.h	/^    uint8_t                 type;       \/\/ event_type_t$/;"	m	struct:event_t
+type	.\include\ping.h	/^	unsigned char type;$/;"	m	struct:tagICMPHDR
+type	.\include\queue.h	/^	unsigned char type;$/;"	m	struct:__anon8
+u64	.\include\dict.h	/^		uint64_t u64;$/;"	m	union:dict_entry::__anon2
+ui	.\qt_pro\item.h	/^    Ui::Item *ui;$/;"	m	class:Item
+ui	.\qt_pro\mainwindow.h	/^    Ui::MainWindow *ui;$/;"	m	class:MainWindow
+uint16_t	.\include\types.h	/^typedef unsigned short      uint16_t;$/;"	t
+uint32_t	.\include\types.h	/^typedef unsigned long       uint32_t;$/;"	t
+uint32_to_str	.\src\utils.c	/^char* uint32_to_str(uint32_t n)$/;"	f
+uint64_t	.\include\types.h	/^typedef unsigned long long  uint64_t;$/;"	t
+uint8_t	.\include\types.h	/^typedef unsigned char       uint8_t;$/;"	t
+unescape_uri	.\src\uri.c	/^int unescape_uri(char *uri, char **query_string)$/;"	f
+unicode_to_ansi	.\src\utils.c	/^char* unicode_to_ansi(wchar_t* str)$/;"	f
+unicode_to_utf8	.\src\utils.c	/^char* unicode_to_utf8(wchar_t* str)$/;"	f
+unload_wsa	.\qt_pro\socket.cpp	/^void unload_wsa()$/;"	f
+unload_wsa	.\src\socket.c	/^void unload_wsa()$/;"	f
+upload_logs	.\src\log.c	/^int upload_logs(char **buf, int *buf_len)$/;"	f
+uri	.\src\httpd.c	/^    char                *uri;$/;"	m	struct:__anon14	file:
+uri_decode	.\src\httpd.c	/^static void uri_decode(char* uri)$/;"	f	file:
+use_count	.\include\mmap_cache.h	/^	int use_count;$/;"	m	struct:mmap_entry
+use_localtime	.\src\log.c	/^int use_localtime = 0;   \/\/夏时令$/;"	v
+use_proxy	.\src\http.c	/^static int use_proxy = 0;$/;"	v	file:
+used	.\include\dict.h	/^	unsigned long used;$/;"	m	struct:dictht
+user	.\src\http.c	/^static char *server = NULL, *user = NULL;$/;"	v	file:
+user_agent	.\src\http.c	/^static char user_agent[] = "";$/;"	v	file:
+usr_header_auth	.\src\http.c	/^static int usr_header_auth = 0;$/;"	v	file:
+usr_header_user_agent	.\src\http.c	/^static int usr_header_user_agent = 1;$/;"	v	file:
+utf8_to_ansi	.\src\utils.c	/^char* utf8_to_ansi(char* str)$/;"	f
+utf8_to_unicode	.\src\utils.c	/^wchar_t* utf8_to_unicode(char* str)$/;"	f
+utimeout	.\include\client.h	/^	unsigned long utimeout;		$/;"	m	struct:client
+utimeout	.\qt_pro\client.h	/^    unsigned long utimeout;$/;"	m	struct:client
+v	.\include\dict.h	/^	}v;$/;"	m	struct:dict_entry	typeref:union:dict_entry::__anon2
+val	.\include\dict.h	/^		void *val;$/;"	m	union:dict_entry::__anon2
+validate_access	.\src\tftpd.c	/^int validate_access(struct client *cli, char *in_filename, int mode)$/;"	f
+value	.\include\list.h	/^	void *value;$/;"	m	struct:list_node
+value	.\src\httpd.c	/^    char                *value;$/;"	m	struct:__anon13	file:
+verbose_cgi_logs	.\src\cgi.c	/^int verbose_cgi_logs = 0;$/;"	v
+version	.\qt_pro\mainwindow.cpp	/^void MainWindow::version()$/;"	f	class:MainWindow
+version	.\src\httpd.c	/^    char                *version;$/;"	m	struct:__anon14	file:
+versionAct	.\qt_pro\mainwindow.h	/^    QAction *versionAct;$/;"	m	class:MainWindow
+vihl	.\include\ping.h	/^	unsigned char vihl;		\/\/version and IHL$/;"	m	struct:tagIPHDR
+widget	.\qt_pro\ui_mainwindow.h	/^    QWidget *widget;$/;"	m	class:Ui_MainWindow
+widget_3	.\qt_pro\ui_mainwindow.h	/^    QWidget *widget_3;$/;"	m	class:Ui_MainWindow
+wins	.\include\dhcpd.h	/^    char wins[64];$/;"	m	struct:dhcp_conf
+write_callback	.\src\httpd.c	/^static void write_callback(event_t *ev)$/;"	f	file:
+write_profile_string	.\src\inirw.c	/^int write_profile_string(const char *section, const char *key, const char *value, const char *file)$/;"	f
+xid	.\include\dhcpd.h	/^    uint32_t xid;                \/* 4: Transaction ID *\/$/;"	m	struct:dhcp_packet
+yiaddr	.\include\dhcpd.h	/^    struct in_addr yiaddr;        \/* 16: Client IP address *\/$/;"	m	struct:dhcp_packet	typeref:struct:dhcp_packet::in_addr
+~Global	.\qt_pro\global.cpp	/^Global::~Global()$/;"	f	class:Global
+~Item	.\qt_pro\item.cpp	/^Item::~Item()$/;"	f	class:Item
+~MainWindow	.\qt_pro\mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow

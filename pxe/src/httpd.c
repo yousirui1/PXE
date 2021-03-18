@@ -834,7 +834,7 @@ static char* local_file_list(char *path)
     char *utf8 = NULL;
     int i;
 
-    sprintf(filter, "%s*", "./voi_pxe/");
+    sprintf(filter, "%s*", "./");
     // list directory
     hFind = FindFirstFileA(filter, &FindFileData);
     if (hFind == INVALID_HANDLE_VALUE) 

@@ -87,6 +87,14 @@ struct    tftphdr {
 
 #define E_WOULD_BLOCK(x) ((x) == EAGAIN || (x) == EWOULDBLOCK)
 
+
+struct tftp_conf
+{
+	char dir[128];
+	unsigned int timeout;
+};
+
+
 #if 0
 struct formats;
 

@@ -1,6 +1,10 @@
 #include "base.h"
 #include "client.h"
 #include "dhcpd.h"
+#include "tftpd.h"
+#include "configs.h"
+
+extern struct configs conf;
 
 #define HADDRCMP(a, b) (a[0] == b[0] &&  a[1] == b[1])
 #define HADDRCPY(a, b) (a[0] = b[0], a[1] = b[1])
@@ -14,9 +18,9 @@ static int ip2index(char *ip)
 	unsigned int s_ip, d_ip;
 	
 	s_ip = ip2int(ip);
-	d_ip = ip2int(dhcp_config.pool_ip);
+	d_ip = ip2int(conf.dhcp.pool_ip);
 
-	DEBUG("ip %s pool %s", ip, dhcp_config.pool_ip);
+	DEBUG("ip %s", ip);
 	//DEBUG("s_ip %d d_ip %d ", s_ip[3], d_ip[3]);
     return s_ip - d_ip;
 }
@@ -24,7 +28,7 @@ static int ip2index(char *ip)
 void free_clients()
 {
 	int i;
-	for(i = 0; i < dhcp_config.pool_size; i++)
+	for(i = 0; i < conf.dhcp.pool_size; i++)
 	{
 		if(clients[i])
 			free(clients[i]);
@@ -36,10 +40,10 @@ int init_clients()
 {
 	int i;
 	
-	clients = (struct client **)malloc(sizeof(struct client*) * (dhcp_config.pool_size + 1));
+	clients = (struct client **)malloc(sizeof(struct client*) * (conf.dhcp.pool_size + 1));
 	if(clients)
 	{
-		memset(clients, 0, sizeof(struct client *) * (dhcp_config.pool_size + 1));
+		memset(clients, 0, sizeof(struct client *) * (conf.dhcp.pool_size + 1));
 		return SUCCESS;	
 	}
 	else
@@ -54,6 +58,7 @@ struct client* add_client(char *ip, unsigned long *mac)
 	int ret, ip_index = -1, mac_index = -1;
 	struct client *cli = NULL;
 
+	DEBUG("add_client ip %s", ip);
 	ip_index = ip2index(ip);
 	mac_index = get_client(mac);
 
@@ -169,7 +174,7 @@ struct client* alloc_client(unsigned long *mac, int index)
 int get_client(unsigned long *mac)
 {
 	int i, ret;
-	for(i = 0 ; i < dhcp_config.pool_size; i++)
+	for(i = 0 ; i < conf.dhcp.pool_size; i++)
 	{
 		if(clients[i] && HADDRCMP(clients[i]->mac, mac))
 			return i;
@@ -180,7 +185,7 @@ int get_client(unsigned long *mac)
 int get_free_index(int index)
 {
 	int i;
-	for(i = index; i < dhcp_config.pool_size; i++)
+	for(i = index; i < conf.dhcp.pool_size; i++)
 	{
 		if(!clients[i])
 		{
@@ -193,7 +198,7 @@ int get_free_index(int index)
 int get_total_client()
 {
 	int ret = 0, i;
-	for(i = 0 ; i < dhcp_config.pool_size; i++)
+	for(i = 0 ; i < conf.dhcp.pool_size; i++)
 	{
 		if(clients[i])
 			ret ++;

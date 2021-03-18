@@ -68,16 +68,6 @@ int main(int argc, char *argv[])
 
 	parse_options(argc, argv);
 
-
-    strcpy(dhcp_config.local_ip, "192.169.27.196");
-    strcpy(dhcp_config.pool_ip, "192.169.27.100");
-    dhcp_config.pool_size = 100;
-    strcpy(dhcp_config.mask, "255.255.255.0");
-    strcpy(dhcp_config.dns1, "8.8.8.8");
-    strcpy(dhcp_config.gateway, "192.169.27.254");
-    strcpy(dhcp_config.tftp_ip, "192.169.27.196");
-    dhcp_config.lease = 2440;
-
 	init_clients();
 
 	ret = pthread_create(&pthread_httpd, NULL, thread_httpd, NULL);

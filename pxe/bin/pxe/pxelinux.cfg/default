@@ -1,0 +1,17 @@
+default vesamenu.c32
+menu title PXE Boot Menu
+ 
+timeout 1
+#f1 help.txt
+#f2 version.txt
+ 
+label ipxe-boot
+  menu label Using boot.ipxe via iPXE booting
+  menu default
+    kernel ipxe.lkrn
+    append initrd=boot.ipxe
+ 
+label boot-else
+  menu label Bypass iPXE
+    localboot 1
+

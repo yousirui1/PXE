@@ -30,18 +30,16 @@ int validate_access(struct client *cli, char *in_filename, int mode)
 
 	if((dir = getcwd(NULL, 0)) == NULL)
 	{
-		strcat(filename, "./voi_pxe/");
+		strcat(filename, "./pxe/");
 	}
 	else
 	{
 		strcat(filename, dir);
-		strcat(filename, "/voi_pxe/");
+		strcat(filename, "/pxe/");
 		free(dir);
 	}
 
 	strcat(filename, in_filename);
-	DEBUG("filename %s", filename);
-
 	fd = open(filename, mode == TFTP_RRQ ? O_RDONLY:O_WRONLY, 0666);
 	if(fd < 0)
 	{
@@ -55,7 +53,6 @@ int validate_access(struct client *cli, char *in_filename, int mode)
 		return ERROR;
 	}
 
-	DEBUG("mode %d TFTP_RRQ %d", mode, TFTP_RRQ);
 	if(mode == TFTP_RRQ)
 	{
 		if(stbuf.st_mode & (S_IREAD >> 6) == 0)
@@ -67,7 +64,6 @@ int validate_access(struct client *cli, char *in_filename, int mode)
 		//cli->file = fdopen(fd, "rb");	
 		close(fd);
 		cli->file = fopen(filename, "rb");	
-		DEBUG("tsize %d", cli->tsize);
 	}
 	return SUCCESS;
 }
@@ -217,7 +213,6 @@ send_file:
 		}
 
 	}while(size == cli->blksize && timeout);
-	DEBUG("send over");
 	if(timeout == 0)
 	{
 		DEBUG("client %s recv timeout ", cli->ip);
@@ -241,7 +236,6 @@ int tftp_option_reply(struct client *cli)
 	filename = (char *)&(hdr->th_stuff);
 	if(validate_access(cli, filename, opcode) != SUCCESS)
 	{
-		DEBUG("validate_access error");
 		tftp_send_error(cli, ENOTFOUND, errmsgs[ENOTFOUND]);
 		return ERROR;
 	}
@@ -252,8 +246,7 @@ int tftp_option_reply(struct client *cli)
 		
         strcpy(cp, "tsize");
         cp += sizeof("tsize");
-        cp += sprintf(cp, "%llu", cli->tsize) + 1;
-			
+        cp += sprintf(cp, "%lu", cli->tsize) + 1;
 		send_len = cp - cli->ackbuf;
 		
 		if(send(cli->fd, (char *)cli->ackbuf, send_len, 0) != send_len)
@@ -289,17 +282,16 @@ void *thread_tftp(void *param)
     ret = pthread_attr_init(&st_attr);
     if(ret)
     {    
-        DEBUG("ThreadUdp attr init warning ");
+        //DEBUG("ThreadUdp attr init warning ");
     }    
     ret = pthread_attr_setschedpolicy(&st_attr, SCHED_FIFO);
     if(ret)
     {    
-        DEBUG("ThreadUdp set SCHED_FIFO warning");
+        //DEBUG("ThreadUdp set SCHED_FIFO warning");
     }    
     sched.sched_priority = SCHED_PRIORITY_TFTPD;
     ret = pthread_attr_setschedparam(&st_attr, &sched);
 
-	DEBUG("----------- tftp thread start -------------------");
 
 	ret = tftp_option_reply(cli);
 
@@ -312,7 +304,6 @@ void *thread_tftp(void *param)
 		free(cli->data_buf);
 	
 	free(cli);	
-	DEBUG("----------- tftp thread end -------------------");
     return (void *)ret;
 }
 

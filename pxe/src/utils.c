@@ -96,7 +96,7 @@ char* root_path()
     if (!root[0])
     {
         GetCurrentDirectoryA(MAX_PATH, root);
-		strcat(root, "/voi_pxe");
+		//strcat(root, "/");
         for (i=0; i<strlen(root); i++)
         {
             if (root[i] == '\\')

@@ -170,7 +170,7 @@ enum e_services
 #define is_dhcp(x) (*(uint32_t *)(x).options == *(uint32_t *)DHCP_OPTIONS_COOKIE)
 #define sizeof_tab(x) (sizeof(x) / sizeof(x[0]))
 
-struct dhcp_param
+struct dhcp_conf
 {
 	int fd;
 	char tftp_ip[64];
@@ -184,10 +184,12 @@ struct dhcp_param
     char gateway[64];
     char opt42[64];
     char opt120[64];
-    char boot_file[256];
     char domain_name[128];
 	int lease;
     int ignore_bootp;
+	int again;
+    char pxe_boot[256];
+    char ipxe_boot[256];
     struct
     {
         int add_option;
@@ -195,7 +197,8 @@ struct dhcp_param
     }t[10];
 };
 
-extern struct dhcp_param dhcp_config;
+typedef struct dhcp_conf dhcp_conf;
+extern struct dhcp_conf dhcp_config;
 
 struct dhcp_type
 {

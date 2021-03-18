@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>792</width>
-    <height>481</height>
+    <width>314</width>
+    <height>331</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,73 +21,13 @@
        <enum>Qt::Horizontal</enum>
       </property>
       <widget class="QWidget" name="layoutWidget">
-       <layout class="QVBoxLayout" name="layout_left">
-        <property name="spacing">
-         <number>0</number>
-        </property>
-        <item>
-         <widget class="QWidget" name="widget_3" native="true">
-          <layout class="QHBoxLayout" name="horizontalLayout_3">
-           <item>
-            <widget class="QLabel" name="label_8">
-             <property name="maximumSize">
-              <size>
-               <width>50</width>
-               <height>16777215</height>
-              </size>
-             </property>
-             <property name="text">
-              <string>序号</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="label_9">
-             <property name="text">
-              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;ip&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="label_10">
-             <property name="text">
-              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;mac&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="label">
-             <property name="text">
-              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;进度&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-        </item>
-        <item>
-         <widget class="QListWidget" name="listWidget">
-          <property name="alternatingRowColors">
-           <bool>true</bool>
-          </property>
-          <property name="selectionMode">
-           <enum>QAbstractItemView::SingleSelection</enum>
-          </property>
-          <property name="selectionBehavior">
-           <enum>QAbstractItemView::SelectRows</enum>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-      <widget class="QWidget" name="layoutWidget">
        <layout class="QVBoxLayout" name="layout_right">
         <item>
          <layout class="QFormLayout" name="formLayout">
           <item row="0" column="0">
            <widget class="QLabel" name="label_interface">
             <property name="text">
-             <string>Interface</string>
+             <string>网卡</string>
             </property>
            </widget>
           </item>
@@ -97,7 +37,7 @@
           <item row="1" column="0">
            <widget class="QLabel" name="label_router">
             <property name="text">
-             <string>Server IP</string>
+             <string>服务器IP</string>
             </property>
            </widget>
           </item>
@@ -111,13 +51,13 @@
           <item row="2" column="0" colspan="2">
            <widget class="QGroupBox" name="groupBox">
             <property name="title">
-             <string>DHCP Options</string>
+             <string>DHCP 选项</string>
             </property>
             <layout class="QFormLayout" name="formLayout_2">
              <item row="0" column="0">
               <widget class="QLabel" name="ip_pool_label">
                <property name="text">
-                <string>IP Pool Start</string>
+                <string>DHCP地址地址池</string>
                </property>
               </widget>
              </item>
@@ -127,7 +67,7 @@
              <item row="1" column="0">
               <widget class="QLabel" name="pool_size_label">
                <property name="text">
-                <string>Size of Pool</string>
+                <string>地址池大小</string>
                </property>
               </widget>
              </item>
@@ -141,7 +81,7 @@
              <item row="2" column="0">
               <widget class="QLabel" name="lease_label">
                <property name="text">
-                <string>Lease</string>
+                <string>租期</string>
                </property>
               </widget>
              </item>
@@ -155,7 +95,7 @@
              <item row="3" column="0">
               <widget class="QLabel" name="router_label">
                <property name="text">
-                <string>Router</string>
+                <string>网关</string>
                </property>
               </widget>
              </item>
@@ -169,7 +109,7 @@
              <item row="4" column="0">
               <widget class="QLabel" name="mask_label">
                <property name="text">
-                <string>Mask</string>
+                <string>子网掩码</string>
                </property>
               </widget>
              </item>
@@ -195,6 +135,33 @@
               </widget>
              </item>
             </layout>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QRadioButton" name="vdi_radio">
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>VDI</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QRadioButton" name="voi_radio">
+            <property name="text">
+             <string>VOI</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="QLabel" name="version_label">
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;v1.3  &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
            </widget>
           </item>
          </layout>
@@ -236,16 +203,6 @@
      </widget>
     </item>
    </layout>
-  </widget>
-  <widget class="QMenuBar" name="menuBar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>792</width>
-     <height>23</height>
-    </rect>
-   </property>
   </widget>
   <action name="actionClear">
    <property name="text">
@@ -309,7 +266,6 @@
   <tabstop>mask_edit</tabstop>
   <tabstop>dns_edit</tabstop>
   <tabstop>run_btn</tabstop>
-  <tabstop>listWidget</tabstop>
  </tabstops>
  <resources/>
  <connections/>
