@@ -89,7 +89,7 @@ void *ping_recv(void *param)
 			{
 				memcpy(ip,inet_ntoa(recv_addr.sin_addr), sizeof(ip));	
 				send_arp(&recv_addr.sin_addr, mac);
-				DEBUG("ping ip %s mac %s", ip, haddrtoa((unsigned char *)mac, 6, ':'));
+				//DEBUG("ping ip %s mac %s", ip, haddrtoa((unsigned char *)mac, 6, ':'));
 				add_client(ip, mac);
 			}
 		}
@@ -113,7 +113,6 @@ void ping_range(char *start_ip, unsigned short count)
 	pthread_t pthread_ping;
 	
 	pthread_create(&pthread_ping, NULL, ping_recv, (void*)&sockfd);
-	
 
 	DEBUG("start ip %s ping sockfd %d", start_ip, sockfd);
 
@@ -129,11 +128,11 @@ void ping_range(char *start_ip, unsigned short count)
 	echo_req.icmp_hdr.checksum = 0;
 	echo_req.icmp_hdr.id = htons(PINGAPI_ID);
 
+
 	/* Fill in some data to send */
 	for(i = 0; i < REQ_DATASIZE; i++)
 		echo_req.data[i] = ' ' + i;	
 
-	DEBUG("REQ_DATASIZE over");
 	for(seq = 0; seq < count; ++seq)
 	{
 		echo_req.icmp_hdr.seq = htons(seq);
@@ -144,7 +143,8 @@ void ping_range(char *start_ip, unsigned short count)
 		sendto(sockfd, (char *)&echo_req, sizeof(echo_req), 0,  (struct sockaddr *)(&dest_addr), sizeof(dest_addr));
 		
 		//sleep(1);
-		sendto(sockfd, (char *)&echo_req, sizeof(echo_req), 0,  (struct sockaddr *)(&dest_addr), sizeof(dest_addr));
+		//sendto(sockfd, (char *)&echo_req, sizeof(echo_req), 0,  (struct sockaddr *)(&dest_addr), sizeof(dest_addr));
+
 		dest_addr.sin_addr.s_addr = htonl(add_inc(dest_addr.sin_addr));
 		//sleep(10);
 		//DEBUG("send icmp ping %d", seq);

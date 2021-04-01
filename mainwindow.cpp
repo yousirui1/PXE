@@ -293,6 +293,7 @@ void MainWindow::on_run_btn_clicked()
     memcpy(conf.dhcp.mask, ba_mask.data(), ba_mask.length());
     memcpy(conf.dhcp.dns1, ba_nds1.data(), ba_nds1.length());
     memcpy(conf.dhcp.gateway, ba_gateway.data(), ba_gateway.length());
+    qDebug("conf.dhcp.gateway %s", conf.dhcp.gateway);
     //memcpy(conf.server.ip, ba_gateway.data(), ba_gateway.length());
     //memcpy(conf.dhcp.tftp_ip, ba_tftp_ip.data(), ba_tftp_ip.length());
     strcpy(conf.dhcp.tftp_ip, conf.dhcp.local_ip);

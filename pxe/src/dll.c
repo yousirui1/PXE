@@ -33,8 +33,6 @@ CAPTUREANDCAST_API void start_pxe(struct configs *c)
     init_signals();
     init_pipe();
 
-    init_clients();
-
 	//memcpy(&conf, c, sizeof(struct configs));
 
 	strcpy(conf.netcard.ip, c->netcard.ip);
@@ -70,6 +68,8 @@ CAPTUREANDCAST_API void start_pxe(struct configs *c)
 
     DEBUG("conf.tftp.timeout %d conf.tftp.dir %s", conf.tftp.timeout, conf.tftp.dir);
     DEBUG("conf.dhcp.tftp_ip %s", conf.dhcp.tftp_ip);
+
+    init_clients();
 
     ret = pthread_create(&pthread_httpd, NULL, thread_httpd, NULL);
     if(SUCCESS != ret)

@@ -33,7 +33,8 @@ LIBS +=  -lws2_32 $$PWD/libPXE.dll.a
 SOURCES += \
     global.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    dll.cpp
 
 HEADERS += \
     global.h \
